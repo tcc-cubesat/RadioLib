@@ -5,6 +5,8 @@
 // include the hardware abstraction layer
 #include "PiHal.h"
 
+// #include <SSTV.h>
+
 // create a new instance of the HAL class
 // use SPI channel 1, because on Waveshare LoRaWAN Hat,
 // the SX1261 CS is connected to CE1
@@ -16,7 +18,10 @@ PiHal* hal = new PiHal(1);
 // DIO0 pin:  17 RASP(17)
 // DIO1 pin:  13 RASP(13)
 // RST pin:  12 RASP(4)
+
 SX1278 radio = new Module(hal, 8, 17, 4, 13);
+SSTVClient sstv(&radio);
+
 uint32_t line[320] = {
   // black
   0x000000, 0x000000, 0x000000, 0x000000, 0x000000, 0x000000, 0x000000, 0x000000, 0x000000, 0x000000, 0x000000, 0x000000, 0x000000, 0x000000, 0x000000, 0x000000, 0x000000, 0x000000, 0x000000, 0x000000,
@@ -61,32 +66,32 @@ int main(int argc, char** argv) {
   }
   printf("success!\n");
 
-  Serial.print(F("[SSTV] Initializing ... "));
+  printf(F("[SSTV] Initializing ... "));
   // 0 Hz tone frequency:         434.0 MHz
   // SSTV mode:                   Wrasse (SC2-180)
   state = sstv.begin(434.0, Wrasse);
   if(state == RADIOLIB_ERR_NONE) {
-    Serial.println(F("success!"));
+    printf(F("success!"));
   } else {
-    Serial.print(F("failed, code "));
-    Serial.println(state);
+    printf(F("failed, code "));
+    printf(state);
     while(true);
   }
 
-  Serial.print(F("[SSTV] Setting correction ... "));
+  printf(F("[SSTV] Setting correction ... "));
   state = sstv.setCorrection(0.95);
   if(state == RADIOLIB_ERR_NONE) {
-    Serial.println(F("success!"));
+    printf(F("success!"));
   } else {
-    Serial.print(F("failed, code "));
-    Serial.println(state);
+    printf(F("failed, code "));
+    printf(state);
     while(true);
   }
 
   // loop forever
   for(;;) {
     // send picture with 8 color stripes
-    Serial.print(F("[SSTV] Sending test picture ... "));
+    printf(F("[SSTV] Sending test picture ... "));
   
     // send synchronization header first
     sstv.sendHeader();
@@ -99,9 +104,9 @@ int main(int argc, char** argv) {
     // turn off transmitter
     radio.standby();
   
-    Serial.println(F("done!"));
+    printf(F("done!"));
   
-    delay(30000);
+    hal->delay(30000);
 
   }
 
