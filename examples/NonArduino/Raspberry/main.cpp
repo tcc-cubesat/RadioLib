@@ -5,6 +5,7 @@
 // include the hardware abstraction layer
 #include "PiHal.h"
 
+#include <string>
 // #include <SSTV.h>
 
 // create a new instance of the HAL class
@@ -60,38 +61,42 @@ int main(int argc, char** argv) {
   // initialize just like with Arduino
   printf("[SX1278] Initializing ... ");
   int state = radio.beginFSK();
+  
   if (state != RADIOLIB_ERR_NONE) {
     printf("failed, code %d\n", state);
     return(1);
   }
   printf("success!\n");
 
-  printf(F("[SSTV] Initializing ... "));
+  printf("[SSTV] Initializing ... ");
   // 0 Hz tone frequency:         434.0 MHz
   // SSTV mode:                   Wrasse (SC2-180)
-  state = sstv.begin(434.0, Wrasse);
+  state = sstv.begin(434.0, Martin1);
+  std::string str = std::to_string(state);
+  const char* cstr = str.c_str();
+  printf(cstr)
   if(state == RADIOLIB_ERR_NONE) {
-    printf(F("success!"));
+    printf("success!");
   } else {
-    printf(F("failed, code "));
-    printf(state);
+    printf("failed, code ");
+    printf(cstr);
     while(true);
   }
 
-  printf(F("[SSTV] Setting correction ... "));
-  state = sstv.setCorrection(0.95);
-  if(state == RADIOLIB_ERR_NONE) {
-    printf(F("success!"));
-  } else {
-    printf(F("failed, code "));
-    printf(state);
-    while(true);
-  }
+  // printf("[SSTV] Setting correction ... ");
+  // state = sstv.setCorrection(0.95);
+  // if(state == RADIOLIB_ERR_NONE) {
+  //   printf("success!");
+  // } else {
+  //   printf("failed, code ");
+  //   // printf(state);
+  //   // while(true);
+  // }
 
   // loop forever
   for(;;) {
     // send picture with 8 color stripes
-    printf(F("[SSTV] Sending test picture ... "));
+    printf("[SSTV] Sending test picture ... ");
   
     // send synchronization header first
     sstv.sendHeader();
@@ -104,9 +109,9 @@ int main(int argc, char** argv) {
     // turn off transmitter
     radio.standby();
   
-    printf(F("done!"));
+    printf("done!");
   
-    hal->delay(30000);
+    hal->delay(15000);
 
   }
 
