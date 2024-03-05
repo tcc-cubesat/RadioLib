@@ -19,8 +19,9 @@ PiHal* hal = new PiHal(1);
 // DIO0 pin:  17 RASP(17)
 // DIO1 pin:  13 RASP(13)
 // RST pin:  12 RASP(4)
-
+// DIO2 pin: RASP(12)
 SX1278 radio = new Module(hal, 8, 17, 4, 13);
+AFSKClient audio(&radio, 12);
 SSTVClient sstv(&radio);
 
 uint32_t line[320] = {
@@ -56,64 +57,43 @@ uint32_t line[320] = {
   0xFFFFFF, 0xFFFFFF, 0xFFFFFF, 0xFFFFFF, 0xFFFFFF, 0xFFFFFF, 0xFFFFFF, 0xFFFFFF, 0xFFFFFF, 0xFFFFFF, 0xFFFFFF, 0xFFFFFF, 0xFFFFFF, 0xFFFFFF, 0xFFFFFF, 0xFFFFFF, 0xFFFFFF, 0xFFFFFF, 0xFFFFFF, 0xFFFFFF,
   0xFFFFFF, 0xFFFFFF, 0xFFFFFF, 0xFFFFFF, 0xFFFFFF, 0xFFFFFF, 0xFFFFFF, 0xFFFFFF, 0xFFFFFF, 0xFFFFFF, 0xFFFFFF, 0xFFFFFF, 0xFFFFFF, 0xFFFFFF, 0xFFFFFF, 0xFFFFFF, 0xFFFFFF, 0xFFFFFF, 0xFFFFFF, 0xFFFFFF
 };
-// the entry point for the program
+
 int main(int argc, char** argv) {
-  // initialize just like with Arduino
-  printf("[SX1278] Initializing ... ");
+
   int state = radio.beginFSK();
-  
-  if (state != RADIOLIB_ERR_NONE) {
-    printf("failed, code %d\n", state);
-    return(1);
-  }
-  printf("success!\n");
-
-  printf("[SSTV] Initializing ... ");
-  // 0 Hz tone frequency:         434.0 MHz
-  // SSTV mode:                   Wrasse (SC2-180)
-  state = sstv.begin(434.0, Martin1);
-  std::string str = std::to_string(state);
-  const char* cstr = str.c_str();
-  printf(cstr)
-  if(state == RADIOLIB_ERR_NONE) {
-    printf("success!");
+  if (state == RADIOLIB_ERR_NONE){
+    printf("success!\n");
   } else {
-    printf("failed, code ");
-    printf(cstr);
-    while(true);
+    printf("failed, code %i\n", state);
   }
 
-  // printf("[SSTV] Setting correction ... ");
-  // state = sstv.setCorrection(0.95);
-  // if(state == RADIOLIB_ERR_NONE) {
-  //   printf("success!");
-  // } else {
-  //   printf("failed, code ");
-  //   // printf(state);
-  //   // while(true);
-  // }
+  printf("Inicializando SSTV!\n");
+  state = sstv.begin(434.0 ,Martin1);
+  if (state == RADIOLIB_ERR_NONE){
+    printf("success sstv!\n");
+  } else {
+    printf("failed, code %i\n", state);
+  }
 
-  // loop forever
-  for(;;) {
-    // send picture with 8 color stripes
-    printf("[SSTV] Sending test picture ... ");
-  
-    // send synchronization header first
+  printf("Setting correction ...");
+  state = sstv.setCorrection(0.95);
+  if (state == RADIOLIB_ERR_NONE){
+    printf("success correction!\n");
+  } else {
+    printf("failed, code %i\n", state);
+  }
+  while(true){
+    printf("Sending test picture ...");
+    hal->delay(1000);
     sstv.sendHeader();
-  
-    // send all picture lines
-    for(uint16_t i = 0; i < sstv.getPictureHeight(); i++) {
+    for (uint32_t i = 0; i < sstv.getPictureHeight(); i++){
       sstv.sendLine(line);
     }
-  
-    // turn off transmitter
+
     radio.standby();
-  
-    printf("done!");
-  
-    hal->delay(15000);
 
+    printf("Done!");
+    hal->delay(10000);
   }
-
   return(0);
 }
