@@ -20,7 +20,7 @@ PiHal* hal = new PiHal(1);
 // DIO1 pin:  13 RASP(13)
 // RST pin:  12 RASP(4)
 // DIO2 pin: RASP(12)
-SX1278 radio = new Module(hal, 8, 17, 4, 13);
+SX1272 radio = new Module(hal, 8, 17, 4, 13);
 AFSKClient audio(&radio, 12);
 SSTVClient sstv(&radio);
 

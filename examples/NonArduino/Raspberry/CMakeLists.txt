@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.18)
 
 # create the project
-project(rpi-sx1278)
+project(rpi-sx1272)
 
 # when using debuggers such as gdb, the following line can be used
 #set(CMAKE_BUILD_TYPE Debug)

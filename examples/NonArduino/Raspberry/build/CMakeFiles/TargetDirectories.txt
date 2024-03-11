@@ -1,4 +1,4 @@
-/home/tccsat/RadioLib/examples/NonArduino/Raspberry/build/CMakeFiles/rpi-sx1278.dir
+/home/tccsat/RadioLib/examples/NonArduino/Raspberry/build/CMakeFiles/rpi-sx1272.dir
 /home/tccsat/RadioLib/examples/NonArduino/Raspberry/build/CMakeFiles/edit_cache.dir
 /home/tccsat/RadioLib/examples/NonArduino/Raspberry/build/CMakeFiles/rebuild_cache.dir
 /home/tccsat/RadioLib/examples/NonArduino/Raspberry/build/CMakeFiles/list_install_components.dir
