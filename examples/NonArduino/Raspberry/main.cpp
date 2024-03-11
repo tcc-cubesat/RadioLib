@@ -16,7 +16,7 @@ PiHal* hal = new PiHal(1);
 // DIO0 pin:  17 RASP(17)
 // DIO1 pin:  13 RASP(13)
 // RST pin:  12 RASP(4)
-SX1278 radio = new Module(hal, 8, 17, 4, 13);
+SX1272 radio = new Module(hal, 8, 17, 4, 13);
 
 // the entry point for the program
 int main(int argc, char** argv) {
@@ -39,7 +39,7 @@ int main(int argc, char** argv) {
       printf("success!\n");
 
       // wait for a second before transmitting again
-      hal->delay(1000);
+      hal->delay(100);
 
     } else {
       printf("failed, code %d\n", state);

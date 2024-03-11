@@ -126,6 +126,6 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/rpi-sx1278.dir/DependInfo.cmake"
+  "CMakeFiles/rpi-sx1272.dir/DependInfo.cmake"
   "RadioLib/CMakeFiles/RadioLib.dir/DependInfo.cmake"
   )
