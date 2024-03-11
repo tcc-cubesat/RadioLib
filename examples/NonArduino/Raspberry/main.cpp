@@ -68,7 +68,7 @@ int main(int argc, char** argv) {
   }
 
   printf("Inicializando SSTV!\n");
-  state = sstv.begin(434.0 ,Martin1);
+  state = sstv.begin(915.0 ,Martin1);
   if (state == RADIOLIB_ERR_NONE){
     printf("success sstv!\n");
   } else {
