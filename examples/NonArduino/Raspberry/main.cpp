@@ -201,7 +201,7 @@ int beginRadio(SX1272 radio){
     printf("[Radio Begin]...ok!\n");
     return (state);
   } else {
-    printf("[Radio Begin]...error: %i",state);
+    printf("[Radio Begin]...error: %i\n",state);
     return (-1);
   }
 }
@@ -213,7 +213,7 @@ int beginABPLora(){
     printf("[LoRa ABP Begin]...ok!\n");
     return(state);
   } else{
-    printf("[LoRa ABP Begin]...error: %i",state);
+    printf("[LoRa ABP Begin]...error: %i\n",state);
     return (-1);
   }
 }
@@ -222,17 +222,39 @@ int main(){
   printf("[LoRa Node]...ok!\n");
 
   int state = beginRadio(radio);
-  {
-  int state = beginABPLora();
-  }
+  state = beginABPLora();
+
+  // node.setADR(true);
+  // node.setDutyCycle(true, 1250);
+  // node.setDwellTime(true, 1000);
+  
   uint8_t count = 0;
   while(true){
     const char *strUp = "hello!";
     uint8_t strDown[256];
     size_t lenDown = 0;
-    uint8_t port = 10;
+    uint8_t port = 1;
     int16_t state = node.sendReceive(strUp, port, strDown, &lenDown);
+    // int16_t state = node.uplink(strUp, port);
+    if(state == RADIOLIB_ERR_NONE){
+      printf("[LoRa sendReceive]...ok!\n");
+      printf("[LoRaWAN] Data:\t\t");
+      size_t dataDownLength = sizeof(strDown) / sizeof(strDown[0]);
 
+      if(dataDownLength > 0){
+        printf("%s",strDown);
+      } else {
+        printf("<MAC commands only>");
+      }
+    } else{
+      printf("[LoRa sendReceive]...error: %i\n",state);
+      return (-1);
+    }
+
+    uint32_t minimunDelay = 60000;
+    uint32_t interval = node.timeUntilUplink();
+    uint32_t delayMs = std::max(interval,minimunDelay);
+    hal->delay(delayMs);
   }
   return(0);
 }
