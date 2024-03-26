@@ -167,22 +167,33 @@
 //   return(0);
 // }
 
-
-#include <RadioLib.h>
-#include "PiHal.h"
-
-PiHal* hal = new PiHal(1);
-
+//   uint64_t devEUI = 0x2000704320010443;
+//   uint8_t nwkKey[] = { 0x2B, 0x7E, 0x15, 0x16, 0x28, 0xAE, 0xD2, 0xA6,0xAB, 0xF7, 0x15, 0x88, 0x09, 0xCF, 0x4F, 0x3C };
+//   uint8_t appKey[] = { 0x2B, 0x7E, 0x15, 0x16, 0x28, 0xAE, 0xD2, 0xA6,0xAB, 0xF7, 0x15, 0x88, 0x09, 0xCF, 0x4F, 0x3C };
 // NSS pin:   8 RASP(8)
 // DIO0 pin:  17 RASP(17)
 // DIO1 pin:  13 RASP(13)
 // RST pin:  12 RASP(4)
 // DIO2 pin: RASP(12)
 
+#include <RadioLib.h>
+#include "PiHal.h"
+#include <string>
+#include <stdio.h>
+
+PiHal* hal = new PiHal(1);
 
 SX1272 radio = new Module(hal, 8, 17, 4, 13);
 
 LoRaWANNode node(&radio, &US915, 2);
+
+uint32_t devAddr = 0x20010443;
+
+uint64_t devEUI = 0x2000704320010443;
+
+uint8_t nwkKey[] = { 0x2B, 0x7E, 0x15, 0x16, 0x28, 0xAE, 0xD2, 0xA6,0xAB, 0xF7, 0x15, 0x88, 0x09, 0xCF, 0x4F, 0x3C };
+
+uint8_t appKey[] = { 0x2B, 0x7E, 0x15, 0x16, 0x28, 0xAE, 0xD2, 0xA6,0xAB, 0xF7, 0x15, 0x88, 0x09, 0xCF, 0x4F, 0x3C };
 
 int beginRadio(SX1272 radio){
   int state = radio.begin();
@@ -190,16 +201,40 @@ int beginRadio(SX1272 radio){
     printf("[Radio Begin]...ok!\n");
     return (state);
   } else {
-    printf("[Radio Begin]...error!\n");
+    printf("[Radio Begin]...error: %i",state);
     return (-1);
   }
 }
 
+
+int beginABPLora(){
+  int state = node.beginABP(devAddr, nwkKey, appKey);
+  if(state >= RADIOLIB_ERR_NONE){
+    printf("[LoRa ABP Begin]...ok!\n");
+    return(state);
+  } else{
+    printf("[LoRa ABP Begin]...error: %i",state);
+    return (-1);
+  }
+}
 int main(){
   printf("[Radio]...ok!\n");
-  printf("[LoRa Node]...ok\n!");
+  printf("[LoRa Node]...ok!\n");
 
   int state = beginRadio(radio);
+  {
+  int state = beginABPLora();
+  }
+  uint8_t count = 0;
+  while(true){
+    const char *strUp = "hello!";
+    uint8_t strDown[256];
+    size_t lenDown = 0;
+    uint8_t port = 10;
+    int16_t state = node.sendReceive(strUp, port, strDown, &lenDown);
 
+  }
   return(0);
 }
+
+// int16_t sendReceive(const char* strUp, uint8_t port, uint8_t* dataDown, size_t* lenDown, bool isConfirmed = false, LoRaWANEvent_t* eventUp = NULL, LoRaWANEvent_t* eventDown = NULL);
