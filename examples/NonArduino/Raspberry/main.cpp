@@ -181,6 +181,7 @@
 #include <string>
 #include <stdio.h>
 
+
 PiHal* hal = new PiHal(1);
 
 SX1272 radio = new Module(hal, 8, 17, 4, 13);
@@ -233,7 +234,7 @@ int main(){
     const char *strUp = "hello!";
     uint8_t strDown[256];
     size_t lenDown = 0;
-    uint8_t port = 1;
+    uint8_t port = 10;
     int16_t state = node.sendReceive(strUp, port, strDown, &lenDown);
     // int16_t state = node.uplink(strUp, port);
     if(state == RADIOLIB_ERR_NONE){

@@ -20,7 +20,7 @@
 // set which output port should be used for debug output
 // may be Serial port (on Arduino) or file like stdout or stderr (on generic platforms)
 #if !defined(RADIOLIB_DEBUG_PORT)
-  #define RADIOLIB_DEBUG_PORT   Serial
+  #define RADIOLIB_DEBUG_PORT   stdout
 #endif
 
 /*
