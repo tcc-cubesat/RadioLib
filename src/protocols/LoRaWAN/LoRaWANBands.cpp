@@ -203,18 +203,19 @@ const LoRaWANBand_t EU433 = {
   }
 };
 
-const LoRaWANBand_t AU915 = {
-  .bandType = RADIOLIB_LORAWAN_BAND_FIXED,
+const LoRaWANBand_t AU915 = 
+{
+  .bandType = RADIOLIB_LORAWAN_BAND_DYNAMIC,
   .payloadLenMax = {  59,  59,  59, 123, 230, 230, 230,   0,  41, 117, 230, 230, 230, 230,   0 },
   .powerMax = 30,
   .powerNumSteps = 10,
   .dutyCycle = 0,
-  .dwellTimeUp = 0,
+  .dwellTimeUp = RADIOLIB_LORAWAN_DWELL_TIME,
   .dwellTimeDn = 0,
   .txFreqs = {
-    RADIOLIB_LORAWAN_CHANNEL_NONE,
-    RADIOLIB_LORAWAN_CHANNEL_NONE,
-    RADIOLIB_LORAWAN_CHANNEL_NONE
+    { .enabled = true, .idx = 0, .freq = 915.200, .drMin = 0, .drMax = 5},
+    { .enabled = true, .idx = 1, .freq = 915.400, .drMin = 0, .drMax = 5},
+    { .enabled = true, .idx = 2, .freq = 915.600, .drMin = 0, .drMax = 5}
   },
   .txJoinReq = {
     RADIOLIB_LORAWAN_CHANNEL_NONE,
@@ -230,14 +231,6 @@ const LoRaWANBand_t AU915 = {
       .drMin = 0,
       .drMax = 5,
       .joinRequestDataRate = 0
-    },
-    {
-      .numChannels = 8,
-      .freqStart = 915.900,
-      .freqStep = 1.600,
-      .drMin = 6,
-      .drMax = 6,
-      .joinRequestDataRate = 6
     }
   },
   .rx1Span = {

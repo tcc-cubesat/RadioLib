@@ -196,7 +196,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=rpi-sx1272
+CMAKE_PROJECT_NAME:STATIC=rpi-sx1276
 
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=/usr/bin/ranlib
@@ -270,13 +270,13 @@ radiolib_IS_TOP_LEVEL:STATIC=OFF
 radiolib_SOURCE_DIR:STATIC=/home/tccsat/RadioLib
 
 //Value Computed by CMake
-rpi-sx1272_BINARY_DIR:STATIC=/home/tccsat/RadioLib/examples/NonArduino/Raspberry/build
+rpi-sx1276_BINARY_DIR:STATIC=/home/tccsat/RadioLib/examples/NonArduino/Raspberry/build
 
 //Value Computed by CMake
-rpi-sx1272_IS_TOP_LEVEL:STATIC=ON
+rpi-sx1276_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
-rpi-sx1272_SOURCE_DIR:STATIC=/home/tccsat/RadioLib/examples/NonArduino/Raspberry
+rpi-sx1276_SOURCE_DIR:STATIC=/home/tccsat/RadioLib/examples/NonArduino/Raspberry
 
 
 ########################

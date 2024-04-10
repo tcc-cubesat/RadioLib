@@ -1,0 +1,125 @@
+const LoRaWANBand_t AU915 = 
+{
+  .bandType = RADIOLIB_LORAWAN_BAND_DYNAMIC,
+  .payloadLenMax = {  59,  59,  59, 123, 230, 230, 230,   0,  41, 117, 230, 230, 230, 230,   0 },
+  .powerMax = 30,
+  .powerNumSteps = 10,
+  .dutyCycle = 0,
+  .dwellTimeUp = RADIOLIB_LORAWAN_DWELL_TIME,
+  .dwellTimeDn = 0,
+  .txFreqs = {
+    { .enabled = true, .idx = 0, .freq = 915.200, .drMin = 0, .drMax = 5},
+    { .enabled = true, .idx = 1, .freq = 915.400, .drMin = 0, .drMax = 5},
+    { .enabled = true, .idx = 2, .freq = 915.600, .drMin = 0, .drMax = 5}
+  },
+  .txJoinReq = {
+    RADIOLIB_LORAWAN_CHANNEL_NONE,
+    RADIOLIB_LORAWAN_CHANNEL_NONE,
+    RADIOLIB_LORAWAN_CHANNEL_NONE
+  },
+  .numTxSpans = 2,
+  .txSpans = {
+    {
+      .numChannels = 8,
+      .freqStart = 915.200,
+      .freqStep = 0.200,
+      .drMin = 0,
+      .drMax = 3,
+      .joinRequestDataRate = 0
+    },
+    {
+      .numChannels = 8,
+      .freqStart = 915.200,
+      .freqStep = 0.200,
+      .drMin = 0,
+      .drMax = 4,
+      .joinRequestDataRate = 0
+    }
+  },
+  .rx1Span = {
+    .numChannels = 8,
+    .freqStart = 923.300,
+    .freqStep = 0.600,
+    .drMin = 8,
+    .drMax = 13,
+    .joinRequestDataRate = RADIOLIB_LORAWAN_DATA_RATE_UNUSED 
+  },
+  .rx1DataRateBase = 8,
+  .rx2 = { .enabled = true, .idx = 0, .freq = 923.300, .drMin = 8, .drMax = 8 },
+  .dataRates = {
+    RADIOLIB_LORAWAN_DATA_RATE_SF_10 | RADIOLIB_LORAWAN_DATA_RATE_BW_125_KHZ | RADIOLIB_LORAWAN_DATA_RATE_CR_4_5,
+    RADIOLIB_LORAWAN_DATA_RATE_SF_10 | RADIOLIB_LORAWAN_DATA_RATE_BW_125_KHZ | RADIOLIB_LORAWAN_DATA_RATE_CR_4_5,
+    RADIOLIB_LORAWAN_DATA_RATE_SF_10 | RADIOLIB_LORAWAN_DATA_RATE_BW_125_KHZ | RADIOLIB_LORAWAN_DATA_RATE_CR_4_5,
+    RADIOLIB_LORAWAN_DATA_RATE_SF_9  | RADIOLIB_LORAWAN_DATA_RATE_BW_125_KHZ | RADIOLIB_LORAWAN_DATA_RATE_CR_4_5,
+    RADIOLIB_LORAWAN_DATA_RATE_SF_8  | RADIOLIB_LORAWAN_DATA_RATE_BW_125_KHZ | RADIOLIB_LORAWAN_DATA_RATE_CR_4_5,
+    RADIOLIB_LORAWAN_DATA_RATE_SF_7  | RADIOLIB_LORAWAN_DATA_RATE_BW_125_KHZ | RADIOLIB_LORAWAN_DATA_RATE_CR_4_5,
+    RADIOLIB_LORAWAN_DATA_RATE_SF_7  | RADIOLIB_LORAWAN_DATA_RATE_BW_500_KHZ | RADIOLIB_LORAWAN_DATA_RATE_CR_4_5,
+    RADIOLIB_LORAWAN_DATA_RATE_SF_7  | RADIOLIB_LORAWAN_DATA_RATE_BW_500_KHZ | RADIOLIB_LORAWAN_DATA_RATE_CR_4_5,
+    RADIOLIB_LORAWAN_DATA_RATE_UNUSED,
+    RADIOLIB_LORAWAN_DATA_RATE_UNUSED,
+    RADIOLIB_LORAWAN_DATA_RATE_UNUSED,
+    RADIOLIB_LORAWAN_DATA_RATE_UNUSED,
+    RADIOLIB_LORAWAN_DATA_RATE_UNUSED,
+    RADIOLIB_LORAWAN_DATA_RATE_UNUSED,
+    RADIOLIB_LORAWAN_DATA_RATE_UNUSED
+  }
+};
+
+const LoRaWANBand_t CN500 = {
+  .bandType = RADIOLIB_LORAWAN_BAND_FIXED,
+  .payloadLenMax = {  59,  59,  59, 123, 230, 230,   0,   0,   0,   0,   0,   0,   0,   0,   0 },
+  .powerMax = 19,
+  .powerNumSteps = 7,
+  .dutyCycle = 0,
+  .dwellTimeUp = 0,
+  .dwellTimeDn = 0,
+  .txFreqs = {
+    RADIOLIB_LORAWAN_CHANNEL_NONE,
+    RADIOLIB_LORAWAN_CHANNEL_NONE,
+    RADIOLIB_LORAWAN_CHANNEL_NONE
+  },
+  .txJoinReq = {
+    RADIOLIB_LORAWAN_CHANNEL_NONE,
+    RADIOLIB_LORAWAN_CHANNEL_NONE,
+    RADIOLIB_LORAWAN_CHANNEL_NONE
+  },
+  .numTxSpans = 1,
+  .txSpans = {
+    {
+      .numChannels = 96,
+      .freqStart = 470.300,
+      .freqStep = 0.200,
+      .drMin = 0,
+      .drMax = 5,
+      .joinRequestDataRate = 0
+    },
+    RADIOLIB_LORAWAN_CHANNEL_SPAN_NONE
+  },
+  .rx1Span = {
+    .numChannels = 48,
+    .freqStart = 500.300,
+    .freqStep = 0.200,
+    .drMin = 0,
+    .drMax = 5,
+    .joinRequestDataRate = RADIOLIB_LORAWAN_DATA_RATE_UNUSED 
+  },
+  .rx1DataRateBase = 0,
+  .rx2 = { .enabled = true, .idx = 0, .freq = 505.300, .drMin = 0, .drMax = 0 },
+  .dataRates = {
+    RADIOLIB_LORAWAN_DATA_RATE_SF_12 | RADIOLIB_LORAWAN_DATA_RATE_BW_125_KHZ | RADIOLIB_LORAWAN_DATA_RATE_CR_4_5,
+    RADIOLIB_LORAWAN_DATA_RATE_SF_11 | RADIOLIB_LORAWAN_DATA_RATE_BW_125_KHZ | RADIOLIB_LORAWAN_DATA_RATE_CR_4_5,
+    RADIOLIB_LORAWAN_DATA_RATE_SF_10 | RADIOLIB_LORAWAN_DATA_RATE_BW_125_KHZ | RADIOLIB_LORAWAN_DATA_RATE_CR_4_5,
+    RADIOLIB_LORAWAN_DATA_RATE_SF_9  | RADIOLIB_LORAWAN_DATA_RATE_BW_125_KHZ | RADIOLIB_LORAWAN_DATA_RATE_CR_4_5,
+    RADIOLIB_LORAWAN_DATA_RATE_SF_8  | RADIOLIB_LORAWAN_DATA_RATE_BW_125_KHZ | RADIOLIB_LORAWAN_DATA_RATE_CR_4_5,
+    RADIOLIB_LORAWAN_DATA_RATE_SF_7  | RADIOLIB_LORAWAN_DATA_RATE_BW_125_KHZ | RADIOLIB_LORAWAN_DATA_RATE_CR_4_5,
+    RADIOLIB_LORAWAN_DATA_RATE_UNUSED,
+    RADIOLIB_LORAWAN_DATA_RATE_UNUSED,
+    RADIOLIB_LORAWAN_DATA_RATE_UNUSED,
+    RADIOLIB_LORAWAN_DATA_RATE_UNUSED,
+    RADIOLIB_LORAWAN_DATA_RATE_UNUSED,
+    RADIOLIB_LORAWAN_DATA_RATE_UNUSED,
+    RADIOLIB_LORAWAN_DATA_RATE_UNUSED,
+    RADIOLIB_LORAWAN_DATA_RATE_UNUSED,
+    RADIOLIB_LORAWAN_DATA_RATE_UNUSED
+  }
+};
