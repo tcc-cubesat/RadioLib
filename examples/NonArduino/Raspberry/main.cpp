@@ -1,3 +1,5 @@
+#include <csignal> // Biblioteca para lidar com sinais
+#include <iostream>
 
 // include the library
 #include <RadioLib.h>
@@ -11,6 +13,16 @@
 // create a new instance of the HAL class
 // use SPI channel 1, because on Waveshare LoRaWAN Hat,
 // the SX1261 CS is connected to CE1
+bool keepRunning = true; // Sinalizador de loop
+
+// Função de tratamento de sinal
+void sigHandler(int sig) {
+    if (sig == SIGINT) {
+        std::cout << "Received SIGINT, stopping..." << std::endl;
+        keepRunning = false; 
+    }
+}
+
 PiHal* hal = new PiHal(1);
 
 // now we can create the radio module
@@ -20,7 +32,7 @@ PiHal* hal = new PiHal(1);
 // DIO1 pin:  13 RASP(13)
 // RST pin:  12 RASP(4)
 // DIO2 pin: RASP(12)
-SX1278 radio = new Module(hal, 8, 17, 4, 13);
+SX1276 radio = new Module(hal, 8, 17, 4, 13);
 AFSKClient audio(&radio, 12);
 SSTVClient sstv(&radio);
 
@@ -82,18 +94,26 @@ int main(int argc, char** argv) {
   } else {
     printf("failed, code %i\n", state);
   }
-  while(true){
+  while(keepRunning){
+    signal(SIGINT, sigHandler);
+
     printf("Sending test picture ...");
     hal->delay(1000);
     sstv.sendHeader();
     for (uint32_t i = 0; i < sstv.getPictureHeight(); i++){
+      if (keepRunning){
       sstv.sendLine(line);
+      } else {
+        radio.reset();
+        break;
+      }
     }
 
     radio.standby();
 
     printf("Done!");
     hal->delay(1000);
+    
   }
   return(0);
 }
