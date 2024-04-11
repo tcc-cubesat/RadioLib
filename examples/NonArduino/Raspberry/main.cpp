@@ -1,21 +1,11 @@
 #include <csignal> // Biblioteca para lidar com sinais
 #include <iostream>
-
-// include the library
 #include <RadioLib.h>
-
-// include the hardware abstraction layer
 #include "PiHal.h"
-
 #include <string>
-// #include <SSTV.h>
 
-// create a new instance of the HAL class
-// use SPI channel 1, because on Waveshare LoRaWAN Hat,
-// the SX1261 CS is connected to CE1
-bool keepRunning = true; // Sinalizador de loop
+bool keepRunning = true;
 
-// Função de tratamento de sinal
 void sigHandler(int sig) {
     if (sig == SIGINT) {
         std::cout << "Received SIGINT, stopping..." << std::endl;
