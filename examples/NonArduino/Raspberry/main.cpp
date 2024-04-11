@@ -94,8 +94,8 @@ int main(int argc, char** argv) {
   } else {
     printf("failed, code %i\n", state);
   }
-  while(keepRunning){
     signal(SIGINT, sigHandler);
+  while(keepRunning){
 
     printf("Sending test picture ...");
     hal->delay(1000);
