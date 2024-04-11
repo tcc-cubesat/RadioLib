@@ -68,7 +68,7 @@ int main(int argc, char** argv) {
   }
 
   printf("Inicializando SSTV!\n");
-  state = sstv.begin(434.0 ,Martin1);
+  state = sstv.begin(915.0 ,Martin2);
   if (state == RADIOLIB_ERR_NONE){
     printf("success sstv!\n");
   } else {
@@ -76,7 +76,7 @@ int main(int argc, char** argv) {
   }
 
   printf("Setting correction ...");
-  state = sstv.setCorrection(0.95);
+  state = sstv.setCorrection(1.0);
   if (state == RADIOLIB_ERR_NONE){
     printf("success correction!\n");
   } else {
@@ -93,7 +93,7 @@ int main(int argc, char** argv) {
     radio.standby();
 
     printf("Done!");
-    hal->delay(10000);
+    hal->delay(1000);
   }
   return(0);
 }

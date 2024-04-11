@@ -63,7 +63,7 @@ CMAKE_BINARY_DIR = /home/tccsat/RadioLib/examples/NonArduino/Raspberry/build
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/rpi-sx1278.dir/all
+all: CMakeFiles/rpi-sx1276.dir/all
 all: RadioLib/all
 .PHONY : all
 
@@ -72,7 +72,7 @@ preinstall: RadioLib/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/rpi-sx1278.dir/clean
+clean: CMakeFiles/rpi-sx1276.dir/clean
 clean: RadioLib/clean
 .PHONY : clean
 
@@ -92,30 +92,30 @@ RadioLib/clean: RadioLib/CMakeFiles/RadioLib.dir/clean
 .PHONY : RadioLib/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/rpi-sx1278.dir
+# Target rules for target CMakeFiles/rpi-sx1276.dir
 
 # All Build rule for target.
-CMakeFiles/rpi-sx1278.dir/all: RadioLib/CMakeFiles/RadioLib.dir/all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/rpi-sx1278.dir/build.make CMakeFiles/rpi-sx1278.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/rpi-sx1278.dir/build.make CMakeFiles/rpi-sx1278.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tccsat/RadioLib/examples/NonArduino/Raspberry/build/CMakeFiles --progress-num=51,52 "Built target rpi-sx1278"
-.PHONY : CMakeFiles/rpi-sx1278.dir/all
+CMakeFiles/rpi-sx1276.dir/all: RadioLib/CMakeFiles/RadioLib.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rpi-sx1276.dir/build.make CMakeFiles/rpi-sx1276.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rpi-sx1276.dir/build.make CMakeFiles/rpi-sx1276.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tccsat/RadioLib/examples/NonArduino/Raspberry/build/CMakeFiles --progress-num=51,52 "Built target rpi-sx1276"
+.PHONY : CMakeFiles/rpi-sx1276.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/rpi-sx1278.dir/rule: cmake_check_build_system
+CMakeFiles/rpi-sx1276.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/tccsat/RadioLib/examples/NonArduino/Raspberry/build/CMakeFiles 52
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/rpi-sx1278.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/rpi-sx1276.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/tccsat/RadioLib/examples/NonArduino/Raspberry/build/CMakeFiles 0
-.PHONY : CMakeFiles/rpi-sx1278.dir/rule
+.PHONY : CMakeFiles/rpi-sx1276.dir/rule
 
 # Convenience name for target.
-rpi-sx1278: CMakeFiles/rpi-sx1278.dir/rule
-.PHONY : rpi-sx1278
+rpi-sx1276: CMakeFiles/rpi-sx1276.dir/rule
+.PHONY : rpi-sx1276
 
 # clean rule for target.
-CMakeFiles/rpi-sx1278.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/rpi-sx1278.dir/build.make CMakeFiles/rpi-sx1278.dir/clean
-.PHONY : CMakeFiles/rpi-sx1278.dir/clean
+CMakeFiles/rpi-sx1276.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rpi-sx1276.dir/build.make CMakeFiles/rpi-sx1276.dir/clean
+.PHONY : CMakeFiles/rpi-sx1276.dir/clean
 
 #=============================================================================
 # Target rules for target RadioLib/CMakeFiles/RadioLib.dir
