@@ -3,17 +3,20 @@
 #include <RadioLib.h>
 #include "PiHal.h"
 #include <string>
+#include <stdio.h>
 
 bool keepRunning = true;
 
-void sigHandler(int sig) {
-    if (sig == SIGINT) {
-        std::cout << "Received SIGINT, stopping..." << std::endl;
-        keepRunning = false; 
-    }
+void sigHandler(int sig)
+{
+  if (sig == SIGINT)
+  {
+    std::cout << "Received SIGINT, stopping..." << std::endl;
+    keepRunning = false;
+  }
 }
 
-PiHal* hal = new PiHal(1);
+PiHal *hal = new PiHal(1);
 
 // now we can create the radio module
 // pinout corresponds to the Waveshare LoRaWAN Hat
@@ -60,8 +63,11 @@ uint32_t line[320] = {
   0xFFFFFF, 0xFFFFFF, 0xFFFFFF, 0xFFFFFF, 0xFFFFFF, 0xFFFFFF, 0xFFFFFF, 0xFFFFFF, 0xFFFFFF, 0xFFFFFF, 0xFFFFFF, 0xFFFFFF, 0xFFFFFF, 0xFFFFFF, 0xFFFFFF, 0xFFFFFF, 0xFFFFFF, 0xFFFFFF, 0xFFFFFF, 0xFFFFFF
 };
 
-int main(int argc, char** argv) {
-
+int main(int argc, char **argv)
+{
+  FILE *fptr;
+  // uint32_t *line = image[1];
+  // printf("i%",line);
   int state = radio.beginFSK();
   if (state == RADIOLIB_ERR_NONE){
     printf("success!\n");
@@ -92,7 +98,7 @@ int main(int argc, char** argv) {
     sstv.sendHeader();
     for (uint32_t i = 0; i < sstv.getPictureHeight(); i++){
       if (keepRunning){
-      sstv.sendLine(line);
+      sstv.sendLine(image[i]);
       } else {
         radio.reset();
         break;
@@ -103,7 +109,7 @@ int main(int argc, char** argv) {
 
     printf("Done!");
     hal->delay(1000);
-    
+
   }
-  return(0);
+  return (0);
 }
