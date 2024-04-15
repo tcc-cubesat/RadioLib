@@ -4,6 +4,7 @@
 #include "PiHal.h"
 #include <string>
 #include <stdio.h>
+#include <stdlib.h>
 
 bool keepRunning = true;
 
@@ -66,8 +67,19 @@ uint32_t line[320] = {
 int main(int argc, char **argv)
 {
   FILE *fptr;
+  uint32_t teste[320];
+  if ((fptr = fopen("/home/tccsat/RadioLib/examples/NonArduino/Raspberry/cat.txt","r")) == NULL){
+       printf("Error! opening file");
+       exit(1);
+   }
+  fscanf(fptr,"%x,",&teste[0]);
+  fclose(fptr);
+  printf("%x",teste[0]);
   // uint32_t *line = image[1];
   // printf("i%",line);
+  // for (int i=0; i<256;i++){
+  
+  // }
   int state = radio.beginFSK();
   if (state == RADIOLIB_ERR_NONE){
     printf("success!\n");
@@ -98,7 +110,7 @@ int main(int argc, char **argv)
     sstv.sendHeader();
     for (uint32_t i = 0; i < sstv.getPictureHeight(); i++){
       if (keepRunning){
-      sstv.sendLine(image[i]);
+      sstv.sendLine(line);
       } else {
         radio.reset();
         break;
