@@ -37,7 +37,8 @@ SSTVClient sstv(&radio);
 
 int main(int argc, char **argv)
 {
-  std::vector<std::vector<uint32_t>> image;
+  uint32_t image[256][320];
+
   std::ifstream file("/home/tccsat/RadioLib/examples/NonArduino/Raspberry/cat.txt");
   if (file.is_open())
   {
@@ -45,21 +46,19 @@ int main(int argc, char **argv)
     {
       std::string line;
       std::getline(file, line);
-      std::vector<uint32_t> lista;
       std::istringstream iss(line);
       std::string token;
+      int j = 0;
       while (std::getline(iss, token, ','))
       {
         uint32_t value = std::stoi(token, nullptr, 16);
-        lista.push_back(value);
+        image[i][j++] = value;
       }
-      if (lista.size() != 320)
+      if (j != 320)
       {
         std::cerr << "O arquivo não contém 320 valores na linha " << (i + 1) << std::endl;
         return 1;
       }
-      image.push_back(lista);
-      std::cout << "Tamanho da linha " << (i + 1) << ": " << lista.size() << std::endl;
     }
   }
   else
@@ -67,21 +66,7 @@ int main(int argc, char **argv)
     std::cerr << "Não foi possível abrir o arquivo." << std::endl;
     return 1;
   }
-  std::cout << "Tamanho da imagem: " << image.size() << std::endl;
 
-  if (!image.empty())
-  {
-    std::cout << "Primeira linha da imagem:" << std::endl;
-    for (uint32_t pixel : image[0])
-    {
-      std::cout << std::hex << pixel << " ";
-    }
-    std::cout << std::endl;
-  }
-  else
-  {
-    std::cerr << "A imagem está vazia." << std::endl;
-  }
 
   int state = radio.beginFSK();
   if (state == RADIOLIB_ERR_NONE)
@@ -116,24 +101,16 @@ int main(int argc, char **argv)
   }
   signal(SIGINT, sigHandler);
 
-
-
-  
   while (keepRunning)
   {
-    uint32_t line[320];
     printf("Sending test picture ...");
     hal->delay(100);
     sstv.sendHeader();
     for (uint32_t j = 0; j < sstv.getPictureHeight(); j++)
     {
-      for (size_t i = 0; i < 320; ++i)
-      {
-        line[i] = image[j][i];
-      }
       if (keepRunning)
       {
-        sstv.sendLine(line);
+        sstv.sendLine(image[j]);
       }
       else
       {
@@ -146,6 +123,5 @@ int main(int argc, char **argv)
     hal->delay(1000);
   }
   file.close();
-
   return 0;
 }
