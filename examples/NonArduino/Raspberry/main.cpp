@@ -39,7 +39,7 @@ int main(int argc, char **argv)
 {
   uint32_t image[256][320];
 
-  std::ifstream file("/home/tccsat/RadioLib/examples/NonArduino/Raspberry/cat.txt");
+  std::ifstream file("/home/tccsat/RadioLib/examples/NonArduino/Raspberry/output.txt");
   if (file.is_open())
   {
     for (int i = 0; i < 256; i++)
