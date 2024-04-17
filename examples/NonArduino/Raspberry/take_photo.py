@@ -3,6 +3,10 @@ import numpy as np
 import os
 
 # os.system()
+if os.path.exists("teste.jpg"):
+    os.remove("teste.jpg")
+
+os.system("fswebcam -r 320x256 --jpeg 50 teste.jpg")   
 image = cv2.imread("teste.jpg")
 
 if image is None:
@@ -10,7 +14,6 @@ if image is None:
     exit()
 
 image = cv2.resize(image, (320, 256))
-cv2.imwrite("teste_resized.jpg", image)
 
 
 img_array = []
@@ -25,12 +28,10 @@ for line in range(image.shape[0]):
         line_array.append(cor_hex)
         if column == image.shape[1]-1:
             img_array.append(line_array)
-        
-        
-print(img_array[0])
 
-
-print(len(img_array))
+if os.path.exists('output.txt'):
+    os.remove('output.txt')   
+      
 with open('output.txt', 'w') as f:
     for line in img_array:
         f.write(str(line) + ' ')
