@@ -8,7 +8,6 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/tccsat/RadioLib/src/ArduinoHal.cpp" "RadioLib/CMakeFiles/RadioLib.dir/src/ArduinoHal.cpp.o" "gcc" "RadioLib/CMakeFiles/RadioLib.dir/src/ArduinoHal.cpp.o.d"
   "/home/tccsat/RadioLib/src/Hal.cpp" "RadioLib/CMakeFiles/RadioLib.dir/src/Hal.cpp.o" "gcc" "RadioLib/CMakeFiles/RadioLib.dir/src/Hal.cpp.o.d"
   "/home/tccsat/RadioLib/src/Module.cpp" "RadioLib/CMakeFiles/RadioLib.dir/src/Module.cpp.o" "gcc" "RadioLib/CMakeFiles/RadioLib.dir/src/Module.cpp.o.d"
   "/home/tccsat/RadioLib/src/modules/SX127x/SX1272.cpp" "RadioLib/CMakeFiles/RadioLib.dir/src/modules/SX127x/SX1272.cpp.o" "gcc" "RadioLib/CMakeFiles/RadioLib.dir/src/modules/SX127x/SX1272.cpp.o.d"

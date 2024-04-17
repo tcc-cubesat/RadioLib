@@ -1,6 +1,4 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/RadioLib.dir/src/ArduinoHal.cpp.o"
-  "CMakeFiles/RadioLib.dir/src/ArduinoHal.cpp.o.d"
   "CMakeFiles/RadioLib.dir/src/Hal.cpp.o"
   "CMakeFiles/RadioLib.dir/src/Hal.cpp.o.d"
   "CMakeFiles/RadioLib.dir/src/Module.cpp.o"

@@ -175,30 +175,6 @@ RadioLib/fast:
 	cd /home/tccsat/RadioLib/examples/NonArduino/Raspberry/build && $(MAKE) $(MAKESILENT) -f RadioLib/CMakeFiles/RadioLib.dir/build.make RadioLib/CMakeFiles/RadioLib.dir/build
 .PHONY : RadioLib/fast
 
-src/ArduinoHal.o: src/ArduinoHal.cpp.o
-.PHONY : src/ArduinoHal.o
-
-# target to build an object file
-src/ArduinoHal.cpp.o:
-	cd /home/tccsat/RadioLib/examples/NonArduino/Raspberry/build && $(MAKE) $(MAKESILENT) -f RadioLib/CMakeFiles/RadioLib.dir/build.make RadioLib/CMakeFiles/RadioLib.dir/src/ArduinoHal.cpp.o
-.PHONY : src/ArduinoHal.cpp.o
-
-src/ArduinoHal.i: src/ArduinoHal.cpp.i
-.PHONY : src/ArduinoHal.i
-
-# target to preprocess a source file
-src/ArduinoHal.cpp.i:
-	cd /home/tccsat/RadioLib/examples/NonArduino/Raspberry/build && $(MAKE) $(MAKESILENT) -f RadioLib/CMakeFiles/RadioLib.dir/build.make RadioLib/CMakeFiles/RadioLib.dir/src/ArduinoHal.cpp.i
-.PHONY : src/ArduinoHal.cpp.i
-
-src/ArduinoHal.s: src/ArduinoHal.cpp.s
-.PHONY : src/ArduinoHal.s
-
-# target to generate assembly for a file
-src/ArduinoHal.cpp.s:
-	cd /home/tccsat/RadioLib/examples/NonArduino/Raspberry/build && $(MAKE) $(MAKESILENT) -f RadioLib/CMakeFiles/RadioLib.dir/build.make RadioLib/CMakeFiles/RadioLib.dir/src/ArduinoHal.cpp.s
-.PHONY : src/ArduinoHal.cpp.s
-
 src/Hal.o: src/Hal.cpp.o
 .PHONY : src/Hal.o
 
@@ -620,9 +596,6 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... RadioLib"
-	@echo "... src/ArduinoHal.o"
-	@echo "... src/ArduinoHal.i"
-	@echo "... src/ArduinoHal.s"
 	@echo "... src/Hal.o"
 	@echo "... src/Hal.i"
 	@echo "... src/Hal.s"

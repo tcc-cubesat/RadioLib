@@ -39,9 +39,9 @@
 #include "Module.h"
 
 #include "Hal.h"
-#if defined(RADIOLIB_BUILD_ARDUINO)
-#include "ArduinoHal.h"
-#endif
+// #if defined(RADIOLIB_BUILD_ARDUINO)
+// // #include "ArduinoHal.h"
+// #endif
 
 
 // warnings are printed in this file since BuildOpt.h is compiled in multiple places

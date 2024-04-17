@@ -98,12 +98,12 @@ RadioLib/clean: RadioLib/CMakeFiles/RadioLib.dir/clean
 CMakeFiles/rpi-sx1276.dir/all: RadioLib/CMakeFiles/RadioLib.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rpi-sx1276.dir/build.make CMakeFiles/rpi-sx1276.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rpi-sx1276.dir/build.make CMakeFiles/rpi-sx1276.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tccsat/RadioLib/examples/NonArduino/Raspberry/build/CMakeFiles --progress-num=20,21 "Built target rpi-sx1276"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tccsat/RadioLib/examples/NonArduino/Raspberry/build/CMakeFiles --progress-num=19,20 "Built target rpi-sx1276"
 .PHONY : CMakeFiles/rpi-sx1276.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/rpi-sx1276.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tccsat/RadioLib/examples/NonArduino/Raspberry/build/CMakeFiles 21
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tccsat/RadioLib/examples/NonArduino/Raspberry/build/CMakeFiles 20
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/rpi-sx1276.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/tccsat/RadioLib/examples/NonArduino/Raspberry/build/CMakeFiles 0
 .PHONY : CMakeFiles/rpi-sx1276.dir/rule
@@ -124,12 +124,12 @@ CMakeFiles/rpi-sx1276.dir/clean:
 RadioLib/CMakeFiles/RadioLib.dir/all:
 	$(MAKE) $(MAKESILENT) -f RadioLib/CMakeFiles/RadioLib.dir/build.make RadioLib/CMakeFiles/RadioLib.dir/depend
 	$(MAKE) $(MAKESILENT) -f RadioLib/CMakeFiles/RadioLib.dir/build.make RadioLib/CMakeFiles/RadioLib.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tccsat/RadioLib/examples/NonArduino/Raspberry/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19 "Built target RadioLib"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tccsat/RadioLib/examples/NonArduino/Raspberry/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18 "Built target RadioLib"
 .PHONY : RadioLib/CMakeFiles/RadioLib.dir/all
 
 # Build rule for subdir invocation for target.
 RadioLib/CMakeFiles/RadioLib.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tccsat/RadioLib/examples/NonArduino/Raspberry/build/CMakeFiles 19
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tccsat/RadioLib/examples/NonArduino/Raspberry/build/CMakeFiles 18
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 RadioLib/CMakeFiles/RadioLib.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/tccsat/RadioLib/examples/NonArduino/Raspberry/build/CMakeFiles 0
 .PHONY : RadioLib/CMakeFiles/RadioLib.dir/rule
