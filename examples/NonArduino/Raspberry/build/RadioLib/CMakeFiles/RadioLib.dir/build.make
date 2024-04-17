@@ -111,164 +111,10 @@ RadioLib/CMakeFiles/RadioLib.dir/src/Module.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RadioLib.dir/src/Module.cpp.s"
 	cd /home/tccsat/RadioLib/examples/NonArduino/Raspberry/build/RadioLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tccsat/RadioLib/src/Module.cpp -o CMakeFiles/RadioLib.dir/src/Module.cpp.s
 
-RadioLib/CMakeFiles/RadioLib.dir/src/modules/CC1101/CC1101.cpp.o: RadioLib/CMakeFiles/RadioLib.dir/flags.make
-RadioLib/CMakeFiles/RadioLib.dir/src/modules/CC1101/CC1101.cpp.o: /home/tccsat/RadioLib/src/modules/CC1101/CC1101.cpp
-RadioLib/CMakeFiles/RadioLib.dir/src/modules/CC1101/CC1101.cpp.o: RadioLib/CMakeFiles/RadioLib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tccsat/RadioLib/examples/NonArduino/Raspberry/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object RadioLib/CMakeFiles/RadioLib.dir/src/modules/CC1101/CC1101.cpp.o"
-	cd /home/tccsat/RadioLib/examples/NonArduino/Raspberry/build/RadioLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT RadioLib/CMakeFiles/RadioLib.dir/src/modules/CC1101/CC1101.cpp.o -MF CMakeFiles/RadioLib.dir/src/modules/CC1101/CC1101.cpp.o.d -o CMakeFiles/RadioLib.dir/src/modules/CC1101/CC1101.cpp.o -c /home/tccsat/RadioLib/src/modules/CC1101/CC1101.cpp
-
-RadioLib/CMakeFiles/RadioLib.dir/src/modules/CC1101/CC1101.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RadioLib.dir/src/modules/CC1101/CC1101.cpp.i"
-	cd /home/tccsat/RadioLib/examples/NonArduino/Raspberry/build/RadioLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tccsat/RadioLib/src/modules/CC1101/CC1101.cpp > CMakeFiles/RadioLib.dir/src/modules/CC1101/CC1101.cpp.i
-
-RadioLib/CMakeFiles/RadioLib.dir/src/modules/CC1101/CC1101.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RadioLib.dir/src/modules/CC1101/CC1101.cpp.s"
-	cd /home/tccsat/RadioLib/examples/NonArduino/Raspberry/build/RadioLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tccsat/RadioLib/src/modules/CC1101/CC1101.cpp -o CMakeFiles/RadioLib.dir/src/modules/CC1101/CC1101.cpp.s
-
-RadioLib/CMakeFiles/RadioLib.dir/src/modules/LLCC68/LLCC68.cpp.o: RadioLib/CMakeFiles/RadioLib.dir/flags.make
-RadioLib/CMakeFiles/RadioLib.dir/src/modules/LLCC68/LLCC68.cpp.o: /home/tccsat/RadioLib/src/modules/LLCC68/LLCC68.cpp
-RadioLib/CMakeFiles/RadioLib.dir/src/modules/LLCC68/LLCC68.cpp.o: RadioLib/CMakeFiles/RadioLib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tccsat/RadioLib/examples/NonArduino/Raspberry/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object RadioLib/CMakeFiles/RadioLib.dir/src/modules/LLCC68/LLCC68.cpp.o"
-	cd /home/tccsat/RadioLib/examples/NonArduino/Raspberry/build/RadioLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT RadioLib/CMakeFiles/RadioLib.dir/src/modules/LLCC68/LLCC68.cpp.o -MF CMakeFiles/RadioLib.dir/src/modules/LLCC68/LLCC68.cpp.o.d -o CMakeFiles/RadioLib.dir/src/modules/LLCC68/LLCC68.cpp.o -c /home/tccsat/RadioLib/src/modules/LLCC68/LLCC68.cpp
-
-RadioLib/CMakeFiles/RadioLib.dir/src/modules/LLCC68/LLCC68.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RadioLib.dir/src/modules/LLCC68/LLCC68.cpp.i"
-	cd /home/tccsat/RadioLib/examples/NonArduino/Raspberry/build/RadioLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tccsat/RadioLib/src/modules/LLCC68/LLCC68.cpp > CMakeFiles/RadioLib.dir/src/modules/LLCC68/LLCC68.cpp.i
-
-RadioLib/CMakeFiles/RadioLib.dir/src/modules/LLCC68/LLCC68.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RadioLib.dir/src/modules/LLCC68/LLCC68.cpp.s"
-	cd /home/tccsat/RadioLib/examples/NonArduino/Raspberry/build/RadioLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tccsat/RadioLib/src/modules/LLCC68/LLCC68.cpp -o CMakeFiles/RadioLib.dir/src/modules/LLCC68/LLCC68.cpp.s
-
-RadioLib/CMakeFiles/RadioLib.dir/src/modules/RF69/RF69.cpp.o: RadioLib/CMakeFiles/RadioLib.dir/flags.make
-RadioLib/CMakeFiles/RadioLib.dir/src/modules/RF69/RF69.cpp.o: /home/tccsat/RadioLib/src/modules/RF69/RF69.cpp
-RadioLib/CMakeFiles/RadioLib.dir/src/modules/RF69/RF69.cpp.o: RadioLib/CMakeFiles/RadioLib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tccsat/RadioLib/examples/NonArduino/Raspberry/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object RadioLib/CMakeFiles/RadioLib.dir/src/modules/RF69/RF69.cpp.o"
-	cd /home/tccsat/RadioLib/examples/NonArduino/Raspberry/build/RadioLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT RadioLib/CMakeFiles/RadioLib.dir/src/modules/RF69/RF69.cpp.o -MF CMakeFiles/RadioLib.dir/src/modules/RF69/RF69.cpp.o.d -o CMakeFiles/RadioLib.dir/src/modules/RF69/RF69.cpp.o -c /home/tccsat/RadioLib/src/modules/RF69/RF69.cpp
-
-RadioLib/CMakeFiles/RadioLib.dir/src/modules/RF69/RF69.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RadioLib.dir/src/modules/RF69/RF69.cpp.i"
-	cd /home/tccsat/RadioLib/examples/NonArduino/Raspberry/build/RadioLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tccsat/RadioLib/src/modules/RF69/RF69.cpp > CMakeFiles/RadioLib.dir/src/modules/RF69/RF69.cpp.i
-
-RadioLib/CMakeFiles/RadioLib.dir/src/modules/RF69/RF69.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RadioLib.dir/src/modules/RF69/RF69.cpp.s"
-	cd /home/tccsat/RadioLib/examples/NonArduino/Raspberry/build/RadioLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tccsat/RadioLib/src/modules/RF69/RF69.cpp -o CMakeFiles/RadioLib.dir/src/modules/RF69/RF69.cpp.s
-
-RadioLib/CMakeFiles/RadioLib.dir/src/modules/SX123x/SX1231.cpp.o: RadioLib/CMakeFiles/RadioLib.dir/flags.make
-RadioLib/CMakeFiles/RadioLib.dir/src/modules/SX123x/SX1231.cpp.o: /home/tccsat/RadioLib/src/modules/SX123x/SX1231.cpp
-RadioLib/CMakeFiles/RadioLib.dir/src/modules/SX123x/SX1231.cpp.o: RadioLib/CMakeFiles/RadioLib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tccsat/RadioLib/examples/NonArduino/Raspberry/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object RadioLib/CMakeFiles/RadioLib.dir/src/modules/SX123x/SX1231.cpp.o"
-	cd /home/tccsat/RadioLib/examples/NonArduino/Raspberry/build/RadioLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT RadioLib/CMakeFiles/RadioLib.dir/src/modules/SX123x/SX1231.cpp.o -MF CMakeFiles/RadioLib.dir/src/modules/SX123x/SX1231.cpp.o.d -o CMakeFiles/RadioLib.dir/src/modules/SX123x/SX1231.cpp.o -c /home/tccsat/RadioLib/src/modules/SX123x/SX1231.cpp
-
-RadioLib/CMakeFiles/RadioLib.dir/src/modules/SX123x/SX1231.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RadioLib.dir/src/modules/SX123x/SX1231.cpp.i"
-	cd /home/tccsat/RadioLib/examples/NonArduino/Raspberry/build/RadioLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tccsat/RadioLib/src/modules/SX123x/SX1231.cpp > CMakeFiles/RadioLib.dir/src/modules/SX123x/SX1231.cpp.i
-
-RadioLib/CMakeFiles/RadioLib.dir/src/modules/SX123x/SX1231.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RadioLib.dir/src/modules/SX123x/SX1231.cpp.s"
-	cd /home/tccsat/RadioLib/examples/NonArduino/Raspberry/build/RadioLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tccsat/RadioLib/src/modules/SX123x/SX1231.cpp -o CMakeFiles/RadioLib.dir/src/modules/SX123x/SX1231.cpp.s
-
-RadioLib/CMakeFiles/RadioLib.dir/src/modules/SX123x/SX1233.cpp.o: RadioLib/CMakeFiles/RadioLib.dir/flags.make
-RadioLib/CMakeFiles/RadioLib.dir/src/modules/SX123x/SX1233.cpp.o: /home/tccsat/RadioLib/src/modules/SX123x/SX1233.cpp
-RadioLib/CMakeFiles/RadioLib.dir/src/modules/SX123x/SX1233.cpp.o: RadioLib/CMakeFiles/RadioLib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tccsat/RadioLib/examples/NonArduino/Raspberry/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object RadioLib/CMakeFiles/RadioLib.dir/src/modules/SX123x/SX1233.cpp.o"
-	cd /home/tccsat/RadioLib/examples/NonArduino/Raspberry/build/RadioLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT RadioLib/CMakeFiles/RadioLib.dir/src/modules/SX123x/SX1233.cpp.o -MF CMakeFiles/RadioLib.dir/src/modules/SX123x/SX1233.cpp.o.d -o CMakeFiles/RadioLib.dir/src/modules/SX123x/SX1233.cpp.o -c /home/tccsat/RadioLib/src/modules/SX123x/SX1233.cpp
-
-RadioLib/CMakeFiles/RadioLib.dir/src/modules/SX123x/SX1233.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RadioLib.dir/src/modules/SX123x/SX1233.cpp.i"
-	cd /home/tccsat/RadioLib/examples/NonArduino/Raspberry/build/RadioLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tccsat/RadioLib/src/modules/SX123x/SX1233.cpp > CMakeFiles/RadioLib.dir/src/modules/SX123x/SX1233.cpp.i
-
-RadioLib/CMakeFiles/RadioLib.dir/src/modules/SX123x/SX1233.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RadioLib.dir/src/modules/SX123x/SX1233.cpp.s"
-	cd /home/tccsat/RadioLib/examples/NonArduino/Raspberry/build/RadioLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tccsat/RadioLib/src/modules/SX123x/SX1233.cpp -o CMakeFiles/RadioLib.dir/src/modules/SX123x/SX1233.cpp.s
-
-RadioLib/CMakeFiles/RadioLib.dir/src/modules/SX126x/STM32WLx.cpp.o: RadioLib/CMakeFiles/RadioLib.dir/flags.make
-RadioLib/CMakeFiles/RadioLib.dir/src/modules/SX126x/STM32WLx.cpp.o: /home/tccsat/RadioLib/src/modules/SX126x/STM32WLx.cpp
-RadioLib/CMakeFiles/RadioLib.dir/src/modules/SX126x/STM32WLx.cpp.o: RadioLib/CMakeFiles/RadioLib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tccsat/RadioLib/examples/NonArduino/Raspberry/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object RadioLib/CMakeFiles/RadioLib.dir/src/modules/SX126x/STM32WLx.cpp.o"
-	cd /home/tccsat/RadioLib/examples/NonArduino/Raspberry/build/RadioLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT RadioLib/CMakeFiles/RadioLib.dir/src/modules/SX126x/STM32WLx.cpp.o -MF CMakeFiles/RadioLib.dir/src/modules/SX126x/STM32WLx.cpp.o.d -o CMakeFiles/RadioLib.dir/src/modules/SX126x/STM32WLx.cpp.o -c /home/tccsat/RadioLib/src/modules/SX126x/STM32WLx.cpp
-
-RadioLib/CMakeFiles/RadioLib.dir/src/modules/SX126x/STM32WLx.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RadioLib.dir/src/modules/SX126x/STM32WLx.cpp.i"
-	cd /home/tccsat/RadioLib/examples/NonArduino/Raspberry/build/RadioLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tccsat/RadioLib/src/modules/SX126x/STM32WLx.cpp > CMakeFiles/RadioLib.dir/src/modules/SX126x/STM32WLx.cpp.i
-
-RadioLib/CMakeFiles/RadioLib.dir/src/modules/SX126x/STM32WLx.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RadioLib.dir/src/modules/SX126x/STM32WLx.cpp.s"
-	cd /home/tccsat/RadioLib/examples/NonArduino/Raspberry/build/RadioLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tccsat/RadioLib/src/modules/SX126x/STM32WLx.cpp -o CMakeFiles/RadioLib.dir/src/modules/SX126x/STM32WLx.cpp.s
-
-RadioLib/CMakeFiles/RadioLib.dir/src/modules/SX126x/STM32WLx_Module.cpp.o: RadioLib/CMakeFiles/RadioLib.dir/flags.make
-RadioLib/CMakeFiles/RadioLib.dir/src/modules/SX126x/STM32WLx_Module.cpp.o: /home/tccsat/RadioLib/src/modules/SX126x/STM32WLx_Module.cpp
-RadioLib/CMakeFiles/RadioLib.dir/src/modules/SX126x/STM32WLx_Module.cpp.o: RadioLib/CMakeFiles/RadioLib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tccsat/RadioLib/examples/NonArduino/Raspberry/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object RadioLib/CMakeFiles/RadioLib.dir/src/modules/SX126x/STM32WLx_Module.cpp.o"
-	cd /home/tccsat/RadioLib/examples/NonArduino/Raspberry/build/RadioLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT RadioLib/CMakeFiles/RadioLib.dir/src/modules/SX126x/STM32WLx_Module.cpp.o -MF CMakeFiles/RadioLib.dir/src/modules/SX126x/STM32WLx_Module.cpp.o.d -o CMakeFiles/RadioLib.dir/src/modules/SX126x/STM32WLx_Module.cpp.o -c /home/tccsat/RadioLib/src/modules/SX126x/STM32WLx_Module.cpp
-
-RadioLib/CMakeFiles/RadioLib.dir/src/modules/SX126x/STM32WLx_Module.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RadioLib.dir/src/modules/SX126x/STM32WLx_Module.cpp.i"
-	cd /home/tccsat/RadioLib/examples/NonArduino/Raspberry/build/RadioLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tccsat/RadioLib/src/modules/SX126x/STM32WLx_Module.cpp > CMakeFiles/RadioLib.dir/src/modules/SX126x/STM32WLx_Module.cpp.i
-
-RadioLib/CMakeFiles/RadioLib.dir/src/modules/SX126x/STM32WLx_Module.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RadioLib.dir/src/modules/SX126x/STM32WLx_Module.cpp.s"
-	cd /home/tccsat/RadioLib/examples/NonArduino/Raspberry/build/RadioLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tccsat/RadioLib/src/modules/SX126x/STM32WLx_Module.cpp -o CMakeFiles/RadioLib.dir/src/modules/SX126x/STM32WLx_Module.cpp.s
-
-RadioLib/CMakeFiles/RadioLib.dir/src/modules/SX126x/SX1261.cpp.o: RadioLib/CMakeFiles/RadioLib.dir/flags.make
-RadioLib/CMakeFiles/RadioLib.dir/src/modules/SX126x/SX1261.cpp.o: /home/tccsat/RadioLib/src/modules/SX126x/SX1261.cpp
-RadioLib/CMakeFiles/RadioLib.dir/src/modules/SX126x/SX1261.cpp.o: RadioLib/CMakeFiles/RadioLib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tccsat/RadioLib/examples/NonArduino/Raspberry/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object RadioLib/CMakeFiles/RadioLib.dir/src/modules/SX126x/SX1261.cpp.o"
-	cd /home/tccsat/RadioLib/examples/NonArduino/Raspberry/build/RadioLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT RadioLib/CMakeFiles/RadioLib.dir/src/modules/SX126x/SX1261.cpp.o -MF CMakeFiles/RadioLib.dir/src/modules/SX126x/SX1261.cpp.o.d -o CMakeFiles/RadioLib.dir/src/modules/SX126x/SX1261.cpp.o -c /home/tccsat/RadioLib/src/modules/SX126x/SX1261.cpp
-
-RadioLib/CMakeFiles/RadioLib.dir/src/modules/SX126x/SX1261.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RadioLib.dir/src/modules/SX126x/SX1261.cpp.i"
-	cd /home/tccsat/RadioLib/examples/NonArduino/Raspberry/build/RadioLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tccsat/RadioLib/src/modules/SX126x/SX1261.cpp > CMakeFiles/RadioLib.dir/src/modules/SX126x/SX1261.cpp.i
-
-RadioLib/CMakeFiles/RadioLib.dir/src/modules/SX126x/SX1261.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RadioLib.dir/src/modules/SX126x/SX1261.cpp.s"
-	cd /home/tccsat/RadioLib/examples/NonArduino/Raspberry/build/RadioLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tccsat/RadioLib/src/modules/SX126x/SX1261.cpp -o CMakeFiles/RadioLib.dir/src/modules/SX126x/SX1261.cpp.s
-
-RadioLib/CMakeFiles/RadioLib.dir/src/modules/SX126x/SX1262.cpp.o: RadioLib/CMakeFiles/RadioLib.dir/flags.make
-RadioLib/CMakeFiles/RadioLib.dir/src/modules/SX126x/SX1262.cpp.o: /home/tccsat/RadioLib/src/modules/SX126x/SX1262.cpp
-RadioLib/CMakeFiles/RadioLib.dir/src/modules/SX126x/SX1262.cpp.o: RadioLib/CMakeFiles/RadioLib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tccsat/RadioLib/examples/NonArduino/Raspberry/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object RadioLib/CMakeFiles/RadioLib.dir/src/modules/SX126x/SX1262.cpp.o"
-	cd /home/tccsat/RadioLib/examples/NonArduino/Raspberry/build/RadioLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT RadioLib/CMakeFiles/RadioLib.dir/src/modules/SX126x/SX1262.cpp.o -MF CMakeFiles/RadioLib.dir/src/modules/SX126x/SX1262.cpp.o.d -o CMakeFiles/RadioLib.dir/src/modules/SX126x/SX1262.cpp.o -c /home/tccsat/RadioLib/src/modules/SX126x/SX1262.cpp
-
-RadioLib/CMakeFiles/RadioLib.dir/src/modules/SX126x/SX1262.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RadioLib.dir/src/modules/SX126x/SX1262.cpp.i"
-	cd /home/tccsat/RadioLib/examples/NonArduino/Raspberry/build/RadioLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tccsat/RadioLib/src/modules/SX126x/SX1262.cpp > CMakeFiles/RadioLib.dir/src/modules/SX126x/SX1262.cpp.i
-
-RadioLib/CMakeFiles/RadioLib.dir/src/modules/SX126x/SX1262.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RadioLib.dir/src/modules/SX126x/SX1262.cpp.s"
-	cd /home/tccsat/RadioLib/examples/NonArduino/Raspberry/build/RadioLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tccsat/RadioLib/src/modules/SX126x/SX1262.cpp -o CMakeFiles/RadioLib.dir/src/modules/SX126x/SX1262.cpp.s
-
-RadioLib/CMakeFiles/RadioLib.dir/src/modules/SX126x/SX1268.cpp.o: RadioLib/CMakeFiles/RadioLib.dir/flags.make
-RadioLib/CMakeFiles/RadioLib.dir/src/modules/SX126x/SX1268.cpp.o: /home/tccsat/RadioLib/src/modules/SX126x/SX1268.cpp
-RadioLib/CMakeFiles/RadioLib.dir/src/modules/SX126x/SX1268.cpp.o: RadioLib/CMakeFiles/RadioLib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tccsat/RadioLib/examples/NonArduino/Raspberry/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object RadioLib/CMakeFiles/RadioLib.dir/src/modules/SX126x/SX1268.cpp.o"
-	cd /home/tccsat/RadioLib/examples/NonArduino/Raspberry/build/RadioLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT RadioLib/CMakeFiles/RadioLib.dir/src/modules/SX126x/SX1268.cpp.o -MF CMakeFiles/RadioLib.dir/src/modules/SX126x/SX1268.cpp.o.d -o CMakeFiles/RadioLib.dir/src/modules/SX126x/SX1268.cpp.o -c /home/tccsat/RadioLib/src/modules/SX126x/SX1268.cpp
-
-RadioLib/CMakeFiles/RadioLib.dir/src/modules/SX126x/SX1268.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RadioLib.dir/src/modules/SX126x/SX1268.cpp.i"
-	cd /home/tccsat/RadioLib/examples/NonArduino/Raspberry/build/RadioLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tccsat/RadioLib/src/modules/SX126x/SX1268.cpp > CMakeFiles/RadioLib.dir/src/modules/SX126x/SX1268.cpp.i
-
-RadioLib/CMakeFiles/RadioLib.dir/src/modules/SX126x/SX1268.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RadioLib.dir/src/modules/SX126x/SX1268.cpp.s"
-	cd /home/tccsat/RadioLib/examples/NonArduino/Raspberry/build/RadioLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tccsat/RadioLib/src/modules/SX126x/SX1268.cpp -o CMakeFiles/RadioLib.dir/src/modules/SX126x/SX1268.cpp.s
-
-RadioLib/CMakeFiles/RadioLib.dir/src/modules/SX126x/SX126x.cpp.o: RadioLib/CMakeFiles/RadioLib.dir/flags.make
-RadioLib/CMakeFiles/RadioLib.dir/src/modules/SX126x/SX126x.cpp.o: /home/tccsat/RadioLib/src/modules/SX126x/SX126x.cpp
-RadioLib/CMakeFiles/RadioLib.dir/src/modules/SX126x/SX126x.cpp.o: RadioLib/CMakeFiles/RadioLib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tccsat/RadioLib/examples/NonArduino/Raspberry/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object RadioLib/CMakeFiles/RadioLib.dir/src/modules/SX126x/SX126x.cpp.o"
-	cd /home/tccsat/RadioLib/examples/NonArduino/Raspberry/build/RadioLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT RadioLib/CMakeFiles/RadioLib.dir/src/modules/SX126x/SX126x.cpp.o -MF CMakeFiles/RadioLib.dir/src/modules/SX126x/SX126x.cpp.o.d -o CMakeFiles/RadioLib.dir/src/modules/SX126x/SX126x.cpp.o -c /home/tccsat/RadioLib/src/modules/SX126x/SX126x.cpp
-
-RadioLib/CMakeFiles/RadioLib.dir/src/modules/SX126x/SX126x.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RadioLib.dir/src/modules/SX126x/SX126x.cpp.i"
-	cd /home/tccsat/RadioLib/examples/NonArduino/Raspberry/build/RadioLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tccsat/RadioLib/src/modules/SX126x/SX126x.cpp > CMakeFiles/RadioLib.dir/src/modules/SX126x/SX126x.cpp.i
-
-RadioLib/CMakeFiles/RadioLib.dir/src/modules/SX126x/SX126x.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RadioLib.dir/src/modules/SX126x/SX126x.cpp.s"
-	cd /home/tccsat/RadioLib/examples/NonArduino/Raspberry/build/RadioLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tccsat/RadioLib/src/modules/SX126x/SX126x.cpp -o CMakeFiles/RadioLib.dir/src/modules/SX126x/SX126x.cpp.s
-
 RadioLib/CMakeFiles/RadioLib.dir/src/modules/SX127x/SX1272.cpp.o: RadioLib/CMakeFiles/RadioLib.dir/flags.make
 RadioLib/CMakeFiles/RadioLib.dir/src/modules/SX127x/SX1272.cpp.o: /home/tccsat/RadioLib/src/modules/SX127x/SX1272.cpp
 RadioLib/CMakeFiles/RadioLib.dir/src/modules/SX127x/SX1272.cpp.o: RadioLib/CMakeFiles/RadioLib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tccsat/RadioLib/examples/NonArduino/Raspberry/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object RadioLib/CMakeFiles/RadioLib.dir/src/modules/SX127x/SX1272.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tccsat/RadioLib/examples/NonArduino/Raspberry/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object RadioLib/CMakeFiles/RadioLib.dir/src/modules/SX127x/SX1272.cpp.o"
 	cd /home/tccsat/RadioLib/examples/NonArduino/Raspberry/build/RadioLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT RadioLib/CMakeFiles/RadioLib.dir/src/modules/SX127x/SX1272.cpp.o -MF CMakeFiles/RadioLib.dir/src/modules/SX127x/SX1272.cpp.o.d -o CMakeFiles/RadioLib.dir/src/modules/SX127x/SX1272.cpp.o -c /home/tccsat/RadioLib/src/modules/SX127x/SX1272.cpp
 
 RadioLib/CMakeFiles/RadioLib.dir/src/modules/SX127x/SX1272.cpp.i: cmake_force
@@ -282,7 +128,7 @@ RadioLib/CMakeFiles/RadioLib.dir/src/modules/SX127x/SX1272.cpp.s: cmake_force
 RadioLib/CMakeFiles/RadioLib.dir/src/modules/SX127x/SX1273.cpp.o: RadioLib/CMakeFiles/RadioLib.dir/flags.make
 RadioLib/CMakeFiles/RadioLib.dir/src/modules/SX127x/SX1273.cpp.o: /home/tccsat/RadioLib/src/modules/SX127x/SX1273.cpp
 RadioLib/CMakeFiles/RadioLib.dir/src/modules/SX127x/SX1273.cpp.o: RadioLib/CMakeFiles/RadioLib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tccsat/RadioLib/examples/NonArduino/Raspberry/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object RadioLib/CMakeFiles/RadioLib.dir/src/modules/SX127x/SX1273.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tccsat/RadioLib/examples/NonArduino/Raspberry/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object RadioLib/CMakeFiles/RadioLib.dir/src/modules/SX127x/SX1273.cpp.o"
 	cd /home/tccsat/RadioLib/examples/NonArduino/Raspberry/build/RadioLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT RadioLib/CMakeFiles/RadioLib.dir/src/modules/SX127x/SX1273.cpp.o -MF CMakeFiles/RadioLib.dir/src/modules/SX127x/SX1273.cpp.o.d -o CMakeFiles/RadioLib.dir/src/modules/SX127x/SX1273.cpp.o -c /home/tccsat/RadioLib/src/modules/SX127x/SX1273.cpp
 
 RadioLib/CMakeFiles/RadioLib.dir/src/modules/SX127x/SX1273.cpp.i: cmake_force
@@ -296,7 +142,7 @@ RadioLib/CMakeFiles/RadioLib.dir/src/modules/SX127x/SX1273.cpp.s: cmake_force
 RadioLib/CMakeFiles/RadioLib.dir/src/modules/SX127x/SX1276.cpp.o: RadioLib/CMakeFiles/RadioLib.dir/flags.make
 RadioLib/CMakeFiles/RadioLib.dir/src/modules/SX127x/SX1276.cpp.o: /home/tccsat/RadioLib/src/modules/SX127x/SX1276.cpp
 RadioLib/CMakeFiles/RadioLib.dir/src/modules/SX127x/SX1276.cpp.o: RadioLib/CMakeFiles/RadioLib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tccsat/RadioLib/examples/NonArduino/Raspberry/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object RadioLib/CMakeFiles/RadioLib.dir/src/modules/SX127x/SX1276.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tccsat/RadioLib/examples/NonArduino/Raspberry/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object RadioLib/CMakeFiles/RadioLib.dir/src/modules/SX127x/SX1276.cpp.o"
 	cd /home/tccsat/RadioLib/examples/NonArduino/Raspberry/build/RadioLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT RadioLib/CMakeFiles/RadioLib.dir/src/modules/SX127x/SX1276.cpp.o -MF CMakeFiles/RadioLib.dir/src/modules/SX127x/SX1276.cpp.o.d -o CMakeFiles/RadioLib.dir/src/modules/SX127x/SX1276.cpp.o -c /home/tccsat/RadioLib/src/modules/SX127x/SX1276.cpp
 
 RadioLib/CMakeFiles/RadioLib.dir/src/modules/SX127x/SX1276.cpp.i: cmake_force
@@ -310,7 +156,7 @@ RadioLib/CMakeFiles/RadioLib.dir/src/modules/SX127x/SX1276.cpp.s: cmake_force
 RadioLib/CMakeFiles/RadioLib.dir/src/modules/SX127x/SX1277.cpp.o: RadioLib/CMakeFiles/RadioLib.dir/flags.make
 RadioLib/CMakeFiles/RadioLib.dir/src/modules/SX127x/SX1277.cpp.o: /home/tccsat/RadioLib/src/modules/SX127x/SX1277.cpp
 RadioLib/CMakeFiles/RadioLib.dir/src/modules/SX127x/SX1277.cpp.o: RadioLib/CMakeFiles/RadioLib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tccsat/RadioLib/examples/NonArduino/Raspberry/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object RadioLib/CMakeFiles/RadioLib.dir/src/modules/SX127x/SX1277.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tccsat/RadioLib/examples/NonArduino/Raspberry/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object RadioLib/CMakeFiles/RadioLib.dir/src/modules/SX127x/SX1277.cpp.o"
 	cd /home/tccsat/RadioLib/examples/NonArduino/Raspberry/build/RadioLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT RadioLib/CMakeFiles/RadioLib.dir/src/modules/SX127x/SX1277.cpp.o -MF CMakeFiles/RadioLib.dir/src/modules/SX127x/SX1277.cpp.o.d -o CMakeFiles/RadioLib.dir/src/modules/SX127x/SX1277.cpp.o -c /home/tccsat/RadioLib/src/modules/SX127x/SX1277.cpp
 
 RadioLib/CMakeFiles/RadioLib.dir/src/modules/SX127x/SX1277.cpp.i: cmake_force
@@ -324,7 +170,7 @@ RadioLib/CMakeFiles/RadioLib.dir/src/modules/SX127x/SX1277.cpp.s: cmake_force
 RadioLib/CMakeFiles/RadioLib.dir/src/modules/SX127x/SX1278.cpp.o: RadioLib/CMakeFiles/RadioLib.dir/flags.make
 RadioLib/CMakeFiles/RadioLib.dir/src/modules/SX127x/SX1278.cpp.o: /home/tccsat/RadioLib/src/modules/SX127x/SX1278.cpp
 RadioLib/CMakeFiles/RadioLib.dir/src/modules/SX127x/SX1278.cpp.o: RadioLib/CMakeFiles/RadioLib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tccsat/RadioLib/examples/NonArduino/Raspberry/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object RadioLib/CMakeFiles/RadioLib.dir/src/modules/SX127x/SX1278.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tccsat/RadioLib/examples/NonArduino/Raspberry/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object RadioLib/CMakeFiles/RadioLib.dir/src/modules/SX127x/SX1278.cpp.o"
 	cd /home/tccsat/RadioLib/examples/NonArduino/Raspberry/build/RadioLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT RadioLib/CMakeFiles/RadioLib.dir/src/modules/SX127x/SX1278.cpp.o -MF CMakeFiles/RadioLib.dir/src/modules/SX127x/SX1278.cpp.o.d -o CMakeFiles/RadioLib.dir/src/modules/SX127x/SX1278.cpp.o -c /home/tccsat/RadioLib/src/modules/SX127x/SX1278.cpp
 
 RadioLib/CMakeFiles/RadioLib.dir/src/modules/SX127x/SX1278.cpp.i: cmake_force
@@ -338,7 +184,7 @@ RadioLib/CMakeFiles/RadioLib.dir/src/modules/SX127x/SX1278.cpp.s: cmake_force
 RadioLib/CMakeFiles/RadioLib.dir/src/modules/SX127x/SX1279.cpp.o: RadioLib/CMakeFiles/RadioLib.dir/flags.make
 RadioLib/CMakeFiles/RadioLib.dir/src/modules/SX127x/SX1279.cpp.o: /home/tccsat/RadioLib/src/modules/SX127x/SX1279.cpp
 RadioLib/CMakeFiles/RadioLib.dir/src/modules/SX127x/SX1279.cpp.o: RadioLib/CMakeFiles/RadioLib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tccsat/RadioLib/examples/NonArduino/Raspberry/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object RadioLib/CMakeFiles/RadioLib.dir/src/modules/SX127x/SX1279.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tccsat/RadioLib/examples/NonArduino/Raspberry/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object RadioLib/CMakeFiles/RadioLib.dir/src/modules/SX127x/SX1279.cpp.o"
 	cd /home/tccsat/RadioLib/examples/NonArduino/Raspberry/build/RadioLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT RadioLib/CMakeFiles/RadioLib.dir/src/modules/SX127x/SX1279.cpp.o -MF CMakeFiles/RadioLib.dir/src/modules/SX127x/SX1279.cpp.o.d -o CMakeFiles/RadioLib.dir/src/modules/SX127x/SX1279.cpp.o -c /home/tccsat/RadioLib/src/modules/SX127x/SX1279.cpp
 
 RadioLib/CMakeFiles/RadioLib.dir/src/modules/SX127x/SX1279.cpp.i: cmake_force
@@ -352,7 +198,7 @@ RadioLib/CMakeFiles/RadioLib.dir/src/modules/SX127x/SX1279.cpp.s: cmake_force
 RadioLib/CMakeFiles/RadioLib.dir/src/modules/SX127x/SX127x.cpp.o: RadioLib/CMakeFiles/RadioLib.dir/flags.make
 RadioLib/CMakeFiles/RadioLib.dir/src/modules/SX127x/SX127x.cpp.o: /home/tccsat/RadioLib/src/modules/SX127x/SX127x.cpp
 RadioLib/CMakeFiles/RadioLib.dir/src/modules/SX127x/SX127x.cpp.o: RadioLib/CMakeFiles/RadioLib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tccsat/RadioLib/examples/NonArduino/Raspberry/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object RadioLib/CMakeFiles/RadioLib.dir/src/modules/SX127x/SX127x.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tccsat/RadioLib/examples/NonArduino/Raspberry/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object RadioLib/CMakeFiles/RadioLib.dir/src/modules/SX127x/SX127x.cpp.o"
 	cd /home/tccsat/RadioLib/examples/NonArduino/Raspberry/build/RadioLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT RadioLib/CMakeFiles/RadioLib.dir/src/modules/SX127x/SX127x.cpp.o -MF CMakeFiles/RadioLib.dir/src/modules/SX127x/SX127x.cpp.o.d -o CMakeFiles/RadioLib.dir/src/modules/SX127x/SX127x.cpp.o -c /home/tccsat/RadioLib/src/modules/SX127x/SX127x.cpp
 
 RadioLib/CMakeFiles/RadioLib.dir/src/modules/SX127x/SX127x.cpp.i: cmake_force
@@ -363,136 +209,10 @@ RadioLib/CMakeFiles/RadioLib.dir/src/modules/SX127x/SX127x.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RadioLib.dir/src/modules/SX127x/SX127x.cpp.s"
 	cd /home/tccsat/RadioLib/examples/NonArduino/Raspberry/build/RadioLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tccsat/RadioLib/src/modules/SX127x/SX127x.cpp -o CMakeFiles/RadioLib.dir/src/modules/SX127x/SX127x.cpp.s
 
-RadioLib/CMakeFiles/RadioLib.dir/src/modules/SX128x/SX1280.cpp.o: RadioLib/CMakeFiles/RadioLib.dir/flags.make
-RadioLib/CMakeFiles/RadioLib.dir/src/modules/SX128x/SX1280.cpp.o: /home/tccsat/RadioLib/src/modules/SX128x/SX1280.cpp
-RadioLib/CMakeFiles/RadioLib.dir/src/modules/SX128x/SX1280.cpp.o: RadioLib/CMakeFiles/RadioLib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tccsat/RadioLib/examples/NonArduino/Raspberry/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object RadioLib/CMakeFiles/RadioLib.dir/src/modules/SX128x/SX1280.cpp.o"
-	cd /home/tccsat/RadioLib/examples/NonArduino/Raspberry/build/RadioLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT RadioLib/CMakeFiles/RadioLib.dir/src/modules/SX128x/SX1280.cpp.o -MF CMakeFiles/RadioLib.dir/src/modules/SX128x/SX1280.cpp.o.d -o CMakeFiles/RadioLib.dir/src/modules/SX128x/SX1280.cpp.o -c /home/tccsat/RadioLib/src/modules/SX128x/SX1280.cpp
-
-RadioLib/CMakeFiles/RadioLib.dir/src/modules/SX128x/SX1280.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RadioLib.dir/src/modules/SX128x/SX1280.cpp.i"
-	cd /home/tccsat/RadioLib/examples/NonArduino/Raspberry/build/RadioLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tccsat/RadioLib/src/modules/SX128x/SX1280.cpp > CMakeFiles/RadioLib.dir/src/modules/SX128x/SX1280.cpp.i
-
-RadioLib/CMakeFiles/RadioLib.dir/src/modules/SX128x/SX1280.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RadioLib.dir/src/modules/SX128x/SX1280.cpp.s"
-	cd /home/tccsat/RadioLib/examples/NonArduino/Raspberry/build/RadioLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tccsat/RadioLib/src/modules/SX128x/SX1280.cpp -o CMakeFiles/RadioLib.dir/src/modules/SX128x/SX1280.cpp.s
-
-RadioLib/CMakeFiles/RadioLib.dir/src/modules/SX128x/SX1281.cpp.o: RadioLib/CMakeFiles/RadioLib.dir/flags.make
-RadioLib/CMakeFiles/RadioLib.dir/src/modules/SX128x/SX1281.cpp.o: /home/tccsat/RadioLib/src/modules/SX128x/SX1281.cpp
-RadioLib/CMakeFiles/RadioLib.dir/src/modules/SX128x/SX1281.cpp.o: RadioLib/CMakeFiles/RadioLib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tccsat/RadioLib/examples/NonArduino/Raspberry/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object RadioLib/CMakeFiles/RadioLib.dir/src/modules/SX128x/SX1281.cpp.o"
-	cd /home/tccsat/RadioLib/examples/NonArduino/Raspberry/build/RadioLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT RadioLib/CMakeFiles/RadioLib.dir/src/modules/SX128x/SX1281.cpp.o -MF CMakeFiles/RadioLib.dir/src/modules/SX128x/SX1281.cpp.o.d -o CMakeFiles/RadioLib.dir/src/modules/SX128x/SX1281.cpp.o -c /home/tccsat/RadioLib/src/modules/SX128x/SX1281.cpp
-
-RadioLib/CMakeFiles/RadioLib.dir/src/modules/SX128x/SX1281.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RadioLib.dir/src/modules/SX128x/SX1281.cpp.i"
-	cd /home/tccsat/RadioLib/examples/NonArduino/Raspberry/build/RadioLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tccsat/RadioLib/src/modules/SX128x/SX1281.cpp > CMakeFiles/RadioLib.dir/src/modules/SX128x/SX1281.cpp.i
-
-RadioLib/CMakeFiles/RadioLib.dir/src/modules/SX128x/SX1281.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RadioLib.dir/src/modules/SX128x/SX1281.cpp.s"
-	cd /home/tccsat/RadioLib/examples/NonArduino/Raspberry/build/RadioLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tccsat/RadioLib/src/modules/SX128x/SX1281.cpp -o CMakeFiles/RadioLib.dir/src/modules/SX128x/SX1281.cpp.s
-
-RadioLib/CMakeFiles/RadioLib.dir/src/modules/SX128x/SX1282.cpp.o: RadioLib/CMakeFiles/RadioLib.dir/flags.make
-RadioLib/CMakeFiles/RadioLib.dir/src/modules/SX128x/SX1282.cpp.o: /home/tccsat/RadioLib/src/modules/SX128x/SX1282.cpp
-RadioLib/CMakeFiles/RadioLib.dir/src/modules/SX128x/SX1282.cpp.o: RadioLib/CMakeFiles/RadioLib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tccsat/RadioLib/examples/NonArduino/Raspberry/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object RadioLib/CMakeFiles/RadioLib.dir/src/modules/SX128x/SX1282.cpp.o"
-	cd /home/tccsat/RadioLib/examples/NonArduino/Raspberry/build/RadioLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT RadioLib/CMakeFiles/RadioLib.dir/src/modules/SX128x/SX1282.cpp.o -MF CMakeFiles/RadioLib.dir/src/modules/SX128x/SX1282.cpp.o.d -o CMakeFiles/RadioLib.dir/src/modules/SX128x/SX1282.cpp.o -c /home/tccsat/RadioLib/src/modules/SX128x/SX1282.cpp
-
-RadioLib/CMakeFiles/RadioLib.dir/src/modules/SX128x/SX1282.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RadioLib.dir/src/modules/SX128x/SX1282.cpp.i"
-	cd /home/tccsat/RadioLib/examples/NonArduino/Raspberry/build/RadioLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tccsat/RadioLib/src/modules/SX128x/SX1282.cpp > CMakeFiles/RadioLib.dir/src/modules/SX128x/SX1282.cpp.i
-
-RadioLib/CMakeFiles/RadioLib.dir/src/modules/SX128x/SX1282.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RadioLib.dir/src/modules/SX128x/SX1282.cpp.s"
-	cd /home/tccsat/RadioLib/examples/NonArduino/Raspberry/build/RadioLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tccsat/RadioLib/src/modules/SX128x/SX1282.cpp -o CMakeFiles/RadioLib.dir/src/modules/SX128x/SX1282.cpp.s
-
-RadioLib/CMakeFiles/RadioLib.dir/src/modules/SX128x/SX128x.cpp.o: RadioLib/CMakeFiles/RadioLib.dir/flags.make
-RadioLib/CMakeFiles/RadioLib.dir/src/modules/SX128x/SX128x.cpp.o: /home/tccsat/RadioLib/src/modules/SX128x/SX128x.cpp
-RadioLib/CMakeFiles/RadioLib.dir/src/modules/SX128x/SX128x.cpp.o: RadioLib/CMakeFiles/RadioLib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tccsat/RadioLib/examples/NonArduino/Raspberry/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object RadioLib/CMakeFiles/RadioLib.dir/src/modules/SX128x/SX128x.cpp.o"
-	cd /home/tccsat/RadioLib/examples/NonArduino/Raspberry/build/RadioLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT RadioLib/CMakeFiles/RadioLib.dir/src/modules/SX128x/SX128x.cpp.o -MF CMakeFiles/RadioLib.dir/src/modules/SX128x/SX128x.cpp.o.d -o CMakeFiles/RadioLib.dir/src/modules/SX128x/SX128x.cpp.o -c /home/tccsat/RadioLib/src/modules/SX128x/SX128x.cpp
-
-RadioLib/CMakeFiles/RadioLib.dir/src/modules/SX128x/SX128x.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RadioLib.dir/src/modules/SX128x/SX128x.cpp.i"
-	cd /home/tccsat/RadioLib/examples/NonArduino/Raspberry/build/RadioLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tccsat/RadioLib/src/modules/SX128x/SX128x.cpp > CMakeFiles/RadioLib.dir/src/modules/SX128x/SX128x.cpp.i
-
-RadioLib/CMakeFiles/RadioLib.dir/src/modules/SX128x/SX128x.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RadioLib.dir/src/modules/SX128x/SX128x.cpp.s"
-	cd /home/tccsat/RadioLib/examples/NonArduino/Raspberry/build/RadioLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tccsat/RadioLib/src/modules/SX128x/SX128x.cpp -o CMakeFiles/RadioLib.dir/src/modules/SX128x/SX128x.cpp.s
-
-RadioLib/CMakeFiles/RadioLib.dir/src/modules/Si443x/Si4430.cpp.o: RadioLib/CMakeFiles/RadioLib.dir/flags.make
-RadioLib/CMakeFiles/RadioLib.dir/src/modules/Si443x/Si4430.cpp.o: /home/tccsat/RadioLib/src/modules/Si443x/Si4430.cpp
-RadioLib/CMakeFiles/RadioLib.dir/src/modules/Si443x/Si4430.cpp.o: RadioLib/CMakeFiles/RadioLib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tccsat/RadioLib/examples/NonArduino/Raspberry/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object RadioLib/CMakeFiles/RadioLib.dir/src/modules/Si443x/Si4430.cpp.o"
-	cd /home/tccsat/RadioLib/examples/NonArduino/Raspberry/build/RadioLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT RadioLib/CMakeFiles/RadioLib.dir/src/modules/Si443x/Si4430.cpp.o -MF CMakeFiles/RadioLib.dir/src/modules/Si443x/Si4430.cpp.o.d -o CMakeFiles/RadioLib.dir/src/modules/Si443x/Si4430.cpp.o -c /home/tccsat/RadioLib/src/modules/Si443x/Si4430.cpp
-
-RadioLib/CMakeFiles/RadioLib.dir/src/modules/Si443x/Si4430.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RadioLib.dir/src/modules/Si443x/Si4430.cpp.i"
-	cd /home/tccsat/RadioLib/examples/NonArduino/Raspberry/build/RadioLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tccsat/RadioLib/src/modules/Si443x/Si4430.cpp > CMakeFiles/RadioLib.dir/src/modules/Si443x/Si4430.cpp.i
-
-RadioLib/CMakeFiles/RadioLib.dir/src/modules/Si443x/Si4430.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RadioLib.dir/src/modules/Si443x/Si4430.cpp.s"
-	cd /home/tccsat/RadioLib/examples/NonArduino/Raspberry/build/RadioLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tccsat/RadioLib/src/modules/Si443x/Si4430.cpp -o CMakeFiles/RadioLib.dir/src/modules/Si443x/Si4430.cpp.s
-
-RadioLib/CMakeFiles/RadioLib.dir/src/modules/Si443x/Si4431.cpp.o: RadioLib/CMakeFiles/RadioLib.dir/flags.make
-RadioLib/CMakeFiles/RadioLib.dir/src/modules/Si443x/Si4431.cpp.o: /home/tccsat/RadioLib/src/modules/Si443x/Si4431.cpp
-RadioLib/CMakeFiles/RadioLib.dir/src/modules/Si443x/Si4431.cpp.o: RadioLib/CMakeFiles/RadioLib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tccsat/RadioLib/examples/NonArduino/Raspberry/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object RadioLib/CMakeFiles/RadioLib.dir/src/modules/Si443x/Si4431.cpp.o"
-	cd /home/tccsat/RadioLib/examples/NonArduino/Raspberry/build/RadioLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT RadioLib/CMakeFiles/RadioLib.dir/src/modules/Si443x/Si4431.cpp.o -MF CMakeFiles/RadioLib.dir/src/modules/Si443x/Si4431.cpp.o.d -o CMakeFiles/RadioLib.dir/src/modules/Si443x/Si4431.cpp.o -c /home/tccsat/RadioLib/src/modules/Si443x/Si4431.cpp
-
-RadioLib/CMakeFiles/RadioLib.dir/src/modules/Si443x/Si4431.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RadioLib.dir/src/modules/Si443x/Si4431.cpp.i"
-	cd /home/tccsat/RadioLib/examples/NonArduino/Raspberry/build/RadioLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tccsat/RadioLib/src/modules/Si443x/Si4431.cpp > CMakeFiles/RadioLib.dir/src/modules/Si443x/Si4431.cpp.i
-
-RadioLib/CMakeFiles/RadioLib.dir/src/modules/Si443x/Si4431.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RadioLib.dir/src/modules/Si443x/Si4431.cpp.s"
-	cd /home/tccsat/RadioLib/examples/NonArduino/Raspberry/build/RadioLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tccsat/RadioLib/src/modules/Si443x/Si4431.cpp -o CMakeFiles/RadioLib.dir/src/modules/Si443x/Si4431.cpp.s
-
-RadioLib/CMakeFiles/RadioLib.dir/src/modules/Si443x/Si4432.cpp.o: RadioLib/CMakeFiles/RadioLib.dir/flags.make
-RadioLib/CMakeFiles/RadioLib.dir/src/modules/Si443x/Si4432.cpp.o: /home/tccsat/RadioLib/src/modules/Si443x/Si4432.cpp
-RadioLib/CMakeFiles/RadioLib.dir/src/modules/Si443x/Si4432.cpp.o: RadioLib/CMakeFiles/RadioLib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tccsat/RadioLib/examples/NonArduino/Raspberry/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object RadioLib/CMakeFiles/RadioLib.dir/src/modules/Si443x/Si4432.cpp.o"
-	cd /home/tccsat/RadioLib/examples/NonArduino/Raspberry/build/RadioLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT RadioLib/CMakeFiles/RadioLib.dir/src/modules/Si443x/Si4432.cpp.o -MF CMakeFiles/RadioLib.dir/src/modules/Si443x/Si4432.cpp.o.d -o CMakeFiles/RadioLib.dir/src/modules/Si443x/Si4432.cpp.o -c /home/tccsat/RadioLib/src/modules/Si443x/Si4432.cpp
-
-RadioLib/CMakeFiles/RadioLib.dir/src/modules/Si443x/Si4432.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RadioLib.dir/src/modules/Si443x/Si4432.cpp.i"
-	cd /home/tccsat/RadioLib/examples/NonArduino/Raspberry/build/RadioLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tccsat/RadioLib/src/modules/Si443x/Si4432.cpp > CMakeFiles/RadioLib.dir/src/modules/Si443x/Si4432.cpp.i
-
-RadioLib/CMakeFiles/RadioLib.dir/src/modules/Si443x/Si4432.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RadioLib.dir/src/modules/Si443x/Si4432.cpp.s"
-	cd /home/tccsat/RadioLib/examples/NonArduino/Raspberry/build/RadioLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tccsat/RadioLib/src/modules/Si443x/Si4432.cpp -o CMakeFiles/RadioLib.dir/src/modules/Si443x/Si4432.cpp.s
-
-RadioLib/CMakeFiles/RadioLib.dir/src/modules/Si443x/Si443x.cpp.o: RadioLib/CMakeFiles/RadioLib.dir/flags.make
-RadioLib/CMakeFiles/RadioLib.dir/src/modules/Si443x/Si443x.cpp.o: /home/tccsat/RadioLib/src/modules/Si443x/Si443x.cpp
-RadioLib/CMakeFiles/RadioLib.dir/src/modules/Si443x/Si443x.cpp.o: RadioLib/CMakeFiles/RadioLib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tccsat/RadioLib/examples/NonArduino/Raspberry/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object RadioLib/CMakeFiles/RadioLib.dir/src/modules/Si443x/Si443x.cpp.o"
-	cd /home/tccsat/RadioLib/examples/NonArduino/Raspberry/build/RadioLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT RadioLib/CMakeFiles/RadioLib.dir/src/modules/Si443x/Si443x.cpp.o -MF CMakeFiles/RadioLib.dir/src/modules/Si443x/Si443x.cpp.o.d -o CMakeFiles/RadioLib.dir/src/modules/Si443x/Si443x.cpp.o -c /home/tccsat/RadioLib/src/modules/Si443x/Si443x.cpp
-
-RadioLib/CMakeFiles/RadioLib.dir/src/modules/Si443x/Si443x.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RadioLib.dir/src/modules/Si443x/Si443x.cpp.i"
-	cd /home/tccsat/RadioLib/examples/NonArduino/Raspberry/build/RadioLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tccsat/RadioLib/src/modules/Si443x/Si443x.cpp > CMakeFiles/RadioLib.dir/src/modules/Si443x/Si443x.cpp.i
-
-RadioLib/CMakeFiles/RadioLib.dir/src/modules/Si443x/Si443x.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RadioLib.dir/src/modules/Si443x/Si443x.cpp.s"
-	cd /home/tccsat/RadioLib/examples/NonArduino/Raspberry/build/RadioLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tccsat/RadioLib/src/modules/Si443x/Si443x.cpp -o CMakeFiles/RadioLib.dir/src/modules/Si443x/Si443x.cpp.s
-
-RadioLib/CMakeFiles/RadioLib.dir/src/modules/nRF24/nRF24.cpp.o: RadioLib/CMakeFiles/RadioLib.dir/flags.make
-RadioLib/CMakeFiles/RadioLib.dir/src/modules/nRF24/nRF24.cpp.o: /home/tccsat/RadioLib/src/modules/nRF24/nRF24.cpp
-RadioLib/CMakeFiles/RadioLib.dir/src/modules/nRF24/nRF24.cpp.o: RadioLib/CMakeFiles/RadioLib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tccsat/RadioLib/examples/NonArduino/Raspberry/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object RadioLib/CMakeFiles/RadioLib.dir/src/modules/nRF24/nRF24.cpp.o"
-	cd /home/tccsat/RadioLib/examples/NonArduino/Raspberry/build/RadioLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT RadioLib/CMakeFiles/RadioLib.dir/src/modules/nRF24/nRF24.cpp.o -MF CMakeFiles/RadioLib.dir/src/modules/nRF24/nRF24.cpp.o.d -o CMakeFiles/RadioLib.dir/src/modules/nRF24/nRF24.cpp.o -c /home/tccsat/RadioLib/src/modules/nRF24/nRF24.cpp
-
-RadioLib/CMakeFiles/RadioLib.dir/src/modules/nRF24/nRF24.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RadioLib.dir/src/modules/nRF24/nRF24.cpp.i"
-	cd /home/tccsat/RadioLib/examples/NonArduino/Raspberry/build/RadioLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tccsat/RadioLib/src/modules/nRF24/nRF24.cpp > CMakeFiles/RadioLib.dir/src/modules/nRF24/nRF24.cpp.i
-
-RadioLib/CMakeFiles/RadioLib.dir/src/modules/nRF24/nRF24.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RadioLib.dir/src/modules/nRF24/nRF24.cpp.s"
-	cd /home/tccsat/RadioLib/examples/NonArduino/Raspberry/build/RadioLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tccsat/RadioLib/src/modules/nRF24/nRF24.cpp -o CMakeFiles/RadioLib.dir/src/modules/nRF24/nRF24.cpp.s
-
 RadioLib/CMakeFiles/RadioLib.dir/src/protocols/AFSK/AFSK.cpp.o: RadioLib/CMakeFiles/RadioLib.dir/flags.make
 RadioLib/CMakeFiles/RadioLib.dir/src/protocols/AFSK/AFSK.cpp.o: /home/tccsat/RadioLib/src/protocols/AFSK/AFSK.cpp
 RadioLib/CMakeFiles/RadioLib.dir/src/protocols/AFSK/AFSK.cpp.o: RadioLib/CMakeFiles/RadioLib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tccsat/RadioLib/examples/NonArduino/Raspberry/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object RadioLib/CMakeFiles/RadioLib.dir/src/protocols/AFSK/AFSK.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tccsat/RadioLib/examples/NonArduino/Raspberry/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object RadioLib/CMakeFiles/RadioLib.dir/src/protocols/AFSK/AFSK.cpp.o"
 	cd /home/tccsat/RadioLib/examples/NonArduino/Raspberry/build/RadioLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT RadioLib/CMakeFiles/RadioLib.dir/src/protocols/AFSK/AFSK.cpp.o -MF CMakeFiles/RadioLib.dir/src/protocols/AFSK/AFSK.cpp.o.d -o CMakeFiles/RadioLib.dir/src/protocols/AFSK/AFSK.cpp.o -c /home/tccsat/RadioLib/src/protocols/AFSK/AFSK.cpp
 
 RadioLib/CMakeFiles/RadioLib.dir/src/protocols/AFSK/AFSK.cpp.i: cmake_force
@@ -503,94 +223,10 @@ RadioLib/CMakeFiles/RadioLib.dir/src/protocols/AFSK/AFSK.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RadioLib.dir/src/protocols/AFSK/AFSK.cpp.s"
 	cd /home/tccsat/RadioLib/examples/NonArduino/Raspberry/build/RadioLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tccsat/RadioLib/src/protocols/AFSK/AFSK.cpp -o CMakeFiles/RadioLib.dir/src/protocols/AFSK/AFSK.cpp.s
 
-RadioLib/CMakeFiles/RadioLib.dir/src/protocols/APRS/APRS.cpp.o: RadioLib/CMakeFiles/RadioLib.dir/flags.make
-RadioLib/CMakeFiles/RadioLib.dir/src/protocols/APRS/APRS.cpp.o: /home/tccsat/RadioLib/src/protocols/APRS/APRS.cpp
-RadioLib/CMakeFiles/RadioLib.dir/src/protocols/APRS/APRS.cpp.o: RadioLib/CMakeFiles/RadioLib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tccsat/RadioLib/examples/NonArduino/Raspberry/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object RadioLib/CMakeFiles/RadioLib.dir/src/protocols/APRS/APRS.cpp.o"
-	cd /home/tccsat/RadioLib/examples/NonArduino/Raspberry/build/RadioLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT RadioLib/CMakeFiles/RadioLib.dir/src/protocols/APRS/APRS.cpp.o -MF CMakeFiles/RadioLib.dir/src/protocols/APRS/APRS.cpp.o.d -o CMakeFiles/RadioLib.dir/src/protocols/APRS/APRS.cpp.o -c /home/tccsat/RadioLib/src/protocols/APRS/APRS.cpp
-
-RadioLib/CMakeFiles/RadioLib.dir/src/protocols/APRS/APRS.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RadioLib.dir/src/protocols/APRS/APRS.cpp.i"
-	cd /home/tccsat/RadioLib/examples/NonArduino/Raspberry/build/RadioLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tccsat/RadioLib/src/protocols/APRS/APRS.cpp > CMakeFiles/RadioLib.dir/src/protocols/APRS/APRS.cpp.i
-
-RadioLib/CMakeFiles/RadioLib.dir/src/protocols/APRS/APRS.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RadioLib.dir/src/protocols/APRS/APRS.cpp.s"
-	cd /home/tccsat/RadioLib/examples/NonArduino/Raspberry/build/RadioLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tccsat/RadioLib/src/protocols/APRS/APRS.cpp -o CMakeFiles/RadioLib.dir/src/protocols/APRS/APRS.cpp.s
-
-RadioLib/CMakeFiles/RadioLib.dir/src/protocols/AX25/AX25.cpp.o: RadioLib/CMakeFiles/RadioLib.dir/flags.make
-RadioLib/CMakeFiles/RadioLib.dir/src/protocols/AX25/AX25.cpp.o: /home/tccsat/RadioLib/src/protocols/AX25/AX25.cpp
-RadioLib/CMakeFiles/RadioLib.dir/src/protocols/AX25/AX25.cpp.o: RadioLib/CMakeFiles/RadioLib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tccsat/RadioLib/examples/NonArduino/Raspberry/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object RadioLib/CMakeFiles/RadioLib.dir/src/protocols/AX25/AX25.cpp.o"
-	cd /home/tccsat/RadioLib/examples/NonArduino/Raspberry/build/RadioLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT RadioLib/CMakeFiles/RadioLib.dir/src/protocols/AX25/AX25.cpp.o -MF CMakeFiles/RadioLib.dir/src/protocols/AX25/AX25.cpp.o.d -o CMakeFiles/RadioLib.dir/src/protocols/AX25/AX25.cpp.o -c /home/tccsat/RadioLib/src/protocols/AX25/AX25.cpp
-
-RadioLib/CMakeFiles/RadioLib.dir/src/protocols/AX25/AX25.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RadioLib.dir/src/protocols/AX25/AX25.cpp.i"
-	cd /home/tccsat/RadioLib/examples/NonArduino/Raspberry/build/RadioLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tccsat/RadioLib/src/protocols/AX25/AX25.cpp > CMakeFiles/RadioLib.dir/src/protocols/AX25/AX25.cpp.i
-
-RadioLib/CMakeFiles/RadioLib.dir/src/protocols/AX25/AX25.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RadioLib.dir/src/protocols/AX25/AX25.cpp.s"
-	cd /home/tccsat/RadioLib/examples/NonArduino/Raspberry/build/RadioLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tccsat/RadioLib/src/protocols/AX25/AX25.cpp -o CMakeFiles/RadioLib.dir/src/protocols/AX25/AX25.cpp.s
-
-RadioLib/CMakeFiles/RadioLib.dir/src/protocols/BellModem/BellModem.cpp.o: RadioLib/CMakeFiles/RadioLib.dir/flags.make
-RadioLib/CMakeFiles/RadioLib.dir/src/protocols/BellModem/BellModem.cpp.o: /home/tccsat/RadioLib/src/protocols/BellModem/BellModem.cpp
-RadioLib/CMakeFiles/RadioLib.dir/src/protocols/BellModem/BellModem.cpp.o: RadioLib/CMakeFiles/RadioLib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tccsat/RadioLib/examples/NonArduino/Raspberry/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object RadioLib/CMakeFiles/RadioLib.dir/src/protocols/BellModem/BellModem.cpp.o"
-	cd /home/tccsat/RadioLib/examples/NonArduino/Raspberry/build/RadioLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT RadioLib/CMakeFiles/RadioLib.dir/src/protocols/BellModem/BellModem.cpp.o -MF CMakeFiles/RadioLib.dir/src/protocols/BellModem/BellModem.cpp.o.d -o CMakeFiles/RadioLib.dir/src/protocols/BellModem/BellModem.cpp.o -c /home/tccsat/RadioLib/src/protocols/BellModem/BellModem.cpp
-
-RadioLib/CMakeFiles/RadioLib.dir/src/protocols/BellModem/BellModem.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RadioLib.dir/src/protocols/BellModem/BellModem.cpp.i"
-	cd /home/tccsat/RadioLib/examples/NonArduino/Raspberry/build/RadioLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tccsat/RadioLib/src/protocols/BellModem/BellModem.cpp > CMakeFiles/RadioLib.dir/src/protocols/BellModem/BellModem.cpp.i
-
-RadioLib/CMakeFiles/RadioLib.dir/src/protocols/BellModem/BellModem.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RadioLib.dir/src/protocols/BellModem/BellModem.cpp.s"
-	cd /home/tccsat/RadioLib/examples/NonArduino/Raspberry/build/RadioLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tccsat/RadioLib/src/protocols/BellModem/BellModem.cpp -o CMakeFiles/RadioLib.dir/src/protocols/BellModem/BellModem.cpp.s
-
-RadioLib/CMakeFiles/RadioLib.dir/src/protocols/ExternalRadio/ExternalRadio.cpp.o: RadioLib/CMakeFiles/RadioLib.dir/flags.make
-RadioLib/CMakeFiles/RadioLib.dir/src/protocols/ExternalRadio/ExternalRadio.cpp.o: /home/tccsat/RadioLib/src/protocols/ExternalRadio/ExternalRadio.cpp
-RadioLib/CMakeFiles/RadioLib.dir/src/protocols/ExternalRadio/ExternalRadio.cpp.o: RadioLib/CMakeFiles/RadioLib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tccsat/RadioLib/examples/NonArduino/Raspberry/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object RadioLib/CMakeFiles/RadioLib.dir/src/protocols/ExternalRadio/ExternalRadio.cpp.o"
-	cd /home/tccsat/RadioLib/examples/NonArduino/Raspberry/build/RadioLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT RadioLib/CMakeFiles/RadioLib.dir/src/protocols/ExternalRadio/ExternalRadio.cpp.o -MF CMakeFiles/RadioLib.dir/src/protocols/ExternalRadio/ExternalRadio.cpp.o.d -o CMakeFiles/RadioLib.dir/src/protocols/ExternalRadio/ExternalRadio.cpp.o -c /home/tccsat/RadioLib/src/protocols/ExternalRadio/ExternalRadio.cpp
-
-RadioLib/CMakeFiles/RadioLib.dir/src/protocols/ExternalRadio/ExternalRadio.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RadioLib.dir/src/protocols/ExternalRadio/ExternalRadio.cpp.i"
-	cd /home/tccsat/RadioLib/examples/NonArduino/Raspberry/build/RadioLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tccsat/RadioLib/src/protocols/ExternalRadio/ExternalRadio.cpp > CMakeFiles/RadioLib.dir/src/protocols/ExternalRadio/ExternalRadio.cpp.i
-
-RadioLib/CMakeFiles/RadioLib.dir/src/protocols/ExternalRadio/ExternalRadio.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RadioLib.dir/src/protocols/ExternalRadio/ExternalRadio.cpp.s"
-	cd /home/tccsat/RadioLib/examples/NonArduino/Raspberry/build/RadioLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tccsat/RadioLib/src/protocols/ExternalRadio/ExternalRadio.cpp -o CMakeFiles/RadioLib.dir/src/protocols/ExternalRadio/ExternalRadio.cpp.s
-
-RadioLib/CMakeFiles/RadioLib.dir/src/protocols/FSK4/FSK4.cpp.o: RadioLib/CMakeFiles/RadioLib.dir/flags.make
-RadioLib/CMakeFiles/RadioLib.dir/src/protocols/FSK4/FSK4.cpp.o: /home/tccsat/RadioLib/src/protocols/FSK4/FSK4.cpp
-RadioLib/CMakeFiles/RadioLib.dir/src/protocols/FSK4/FSK4.cpp.o: RadioLib/CMakeFiles/RadioLib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tccsat/RadioLib/examples/NonArduino/Raspberry/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object RadioLib/CMakeFiles/RadioLib.dir/src/protocols/FSK4/FSK4.cpp.o"
-	cd /home/tccsat/RadioLib/examples/NonArduino/Raspberry/build/RadioLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT RadioLib/CMakeFiles/RadioLib.dir/src/protocols/FSK4/FSK4.cpp.o -MF CMakeFiles/RadioLib.dir/src/protocols/FSK4/FSK4.cpp.o.d -o CMakeFiles/RadioLib.dir/src/protocols/FSK4/FSK4.cpp.o -c /home/tccsat/RadioLib/src/protocols/FSK4/FSK4.cpp
-
-RadioLib/CMakeFiles/RadioLib.dir/src/protocols/FSK4/FSK4.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RadioLib.dir/src/protocols/FSK4/FSK4.cpp.i"
-	cd /home/tccsat/RadioLib/examples/NonArduino/Raspberry/build/RadioLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tccsat/RadioLib/src/protocols/FSK4/FSK4.cpp > CMakeFiles/RadioLib.dir/src/protocols/FSK4/FSK4.cpp.i
-
-RadioLib/CMakeFiles/RadioLib.dir/src/protocols/FSK4/FSK4.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RadioLib.dir/src/protocols/FSK4/FSK4.cpp.s"
-	cd /home/tccsat/RadioLib/examples/NonArduino/Raspberry/build/RadioLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tccsat/RadioLib/src/protocols/FSK4/FSK4.cpp -o CMakeFiles/RadioLib.dir/src/protocols/FSK4/FSK4.cpp.s
-
-RadioLib/CMakeFiles/RadioLib.dir/src/protocols/Hellschreiber/Hellschreiber.cpp.o: RadioLib/CMakeFiles/RadioLib.dir/flags.make
-RadioLib/CMakeFiles/RadioLib.dir/src/protocols/Hellschreiber/Hellschreiber.cpp.o: /home/tccsat/RadioLib/src/protocols/Hellschreiber/Hellschreiber.cpp
-RadioLib/CMakeFiles/RadioLib.dir/src/protocols/Hellschreiber/Hellschreiber.cpp.o: RadioLib/CMakeFiles/RadioLib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tccsat/RadioLib/examples/NonArduino/Raspberry/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object RadioLib/CMakeFiles/RadioLib.dir/src/protocols/Hellschreiber/Hellschreiber.cpp.o"
-	cd /home/tccsat/RadioLib/examples/NonArduino/Raspberry/build/RadioLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT RadioLib/CMakeFiles/RadioLib.dir/src/protocols/Hellschreiber/Hellschreiber.cpp.o -MF CMakeFiles/RadioLib.dir/src/protocols/Hellschreiber/Hellschreiber.cpp.o.d -o CMakeFiles/RadioLib.dir/src/protocols/Hellschreiber/Hellschreiber.cpp.o -c /home/tccsat/RadioLib/src/protocols/Hellschreiber/Hellschreiber.cpp
-
-RadioLib/CMakeFiles/RadioLib.dir/src/protocols/Hellschreiber/Hellschreiber.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RadioLib.dir/src/protocols/Hellschreiber/Hellschreiber.cpp.i"
-	cd /home/tccsat/RadioLib/examples/NonArduino/Raspberry/build/RadioLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tccsat/RadioLib/src/protocols/Hellschreiber/Hellschreiber.cpp > CMakeFiles/RadioLib.dir/src/protocols/Hellschreiber/Hellschreiber.cpp.i
-
-RadioLib/CMakeFiles/RadioLib.dir/src/protocols/Hellschreiber/Hellschreiber.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RadioLib.dir/src/protocols/Hellschreiber/Hellschreiber.cpp.s"
-	cd /home/tccsat/RadioLib/examples/NonArduino/Raspberry/build/RadioLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tccsat/RadioLib/src/protocols/Hellschreiber/Hellschreiber.cpp -o CMakeFiles/RadioLib.dir/src/protocols/Hellschreiber/Hellschreiber.cpp.s
-
 RadioLib/CMakeFiles/RadioLib.dir/src/protocols/LoRaWAN/LoRaWAN.cpp.o: RadioLib/CMakeFiles/RadioLib.dir/flags.make
 RadioLib/CMakeFiles/RadioLib.dir/src/protocols/LoRaWAN/LoRaWAN.cpp.o: /home/tccsat/RadioLib/src/protocols/LoRaWAN/LoRaWAN.cpp
 RadioLib/CMakeFiles/RadioLib.dir/src/protocols/LoRaWAN/LoRaWAN.cpp.o: RadioLib/CMakeFiles/RadioLib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tccsat/RadioLib/examples/NonArduino/Raspberry/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object RadioLib/CMakeFiles/RadioLib.dir/src/protocols/LoRaWAN/LoRaWAN.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tccsat/RadioLib/examples/NonArduino/Raspberry/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object RadioLib/CMakeFiles/RadioLib.dir/src/protocols/LoRaWAN/LoRaWAN.cpp.o"
 	cd /home/tccsat/RadioLib/examples/NonArduino/Raspberry/build/RadioLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT RadioLib/CMakeFiles/RadioLib.dir/src/protocols/LoRaWAN/LoRaWAN.cpp.o -MF CMakeFiles/RadioLib.dir/src/protocols/LoRaWAN/LoRaWAN.cpp.o.d -o CMakeFiles/RadioLib.dir/src/protocols/LoRaWAN/LoRaWAN.cpp.o -c /home/tccsat/RadioLib/src/protocols/LoRaWAN/LoRaWAN.cpp
 
 RadioLib/CMakeFiles/RadioLib.dir/src/protocols/LoRaWAN/LoRaWAN.cpp.i: cmake_force
@@ -604,7 +240,7 @@ RadioLib/CMakeFiles/RadioLib.dir/src/protocols/LoRaWAN/LoRaWAN.cpp.s: cmake_forc
 RadioLib/CMakeFiles/RadioLib.dir/src/protocols/LoRaWAN/LoRaWANBands.cpp.o: RadioLib/CMakeFiles/RadioLib.dir/flags.make
 RadioLib/CMakeFiles/RadioLib.dir/src/protocols/LoRaWAN/LoRaWANBands.cpp.o: /home/tccsat/RadioLib/src/protocols/LoRaWAN/LoRaWANBands.cpp
 RadioLib/CMakeFiles/RadioLib.dir/src/protocols/LoRaWAN/LoRaWANBands.cpp.o: RadioLib/CMakeFiles/RadioLib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tccsat/RadioLib/examples/NonArduino/Raspberry/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object RadioLib/CMakeFiles/RadioLib.dir/src/protocols/LoRaWAN/LoRaWANBands.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tccsat/RadioLib/examples/NonArduino/Raspberry/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object RadioLib/CMakeFiles/RadioLib.dir/src/protocols/LoRaWAN/LoRaWANBands.cpp.o"
 	cd /home/tccsat/RadioLib/examples/NonArduino/Raspberry/build/RadioLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT RadioLib/CMakeFiles/RadioLib.dir/src/protocols/LoRaWAN/LoRaWANBands.cpp.o -MF CMakeFiles/RadioLib.dir/src/protocols/LoRaWAN/LoRaWANBands.cpp.o.d -o CMakeFiles/RadioLib.dir/src/protocols/LoRaWAN/LoRaWANBands.cpp.o -c /home/tccsat/RadioLib/src/protocols/LoRaWAN/LoRaWANBands.cpp
 
 RadioLib/CMakeFiles/RadioLib.dir/src/protocols/LoRaWAN/LoRaWANBands.cpp.i: cmake_force
@@ -615,38 +251,10 @@ RadioLib/CMakeFiles/RadioLib.dir/src/protocols/LoRaWAN/LoRaWANBands.cpp.s: cmake
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RadioLib.dir/src/protocols/LoRaWAN/LoRaWANBands.cpp.s"
 	cd /home/tccsat/RadioLib/examples/NonArduino/Raspberry/build/RadioLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tccsat/RadioLib/src/protocols/LoRaWAN/LoRaWANBands.cpp -o CMakeFiles/RadioLib.dir/src/protocols/LoRaWAN/LoRaWANBands.cpp.s
 
-RadioLib/CMakeFiles/RadioLib.dir/src/protocols/Morse/Morse.cpp.o: RadioLib/CMakeFiles/RadioLib.dir/flags.make
-RadioLib/CMakeFiles/RadioLib.dir/src/protocols/Morse/Morse.cpp.o: /home/tccsat/RadioLib/src/protocols/Morse/Morse.cpp
-RadioLib/CMakeFiles/RadioLib.dir/src/protocols/Morse/Morse.cpp.o: RadioLib/CMakeFiles/RadioLib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tccsat/RadioLib/examples/NonArduino/Raspberry/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object RadioLib/CMakeFiles/RadioLib.dir/src/protocols/Morse/Morse.cpp.o"
-	cd /home/tccsat/RadioLib/examples/NonArduino/Raspberry/build/RadioLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT RadioLib/CMakeFiles/RadioLib.dir/src/protocols/Morse/Morse.cpp.o -MF CMakeFiles/RadioLib.dir/src/protocols/Morse/Morse.cpp.o.d -o CMakeFiles/RadioLib.dir/src/protocols/Morse/Morse.cpp.o -c /home/tccsat/RadioLib/src/protocols/Morse/Morse.cpp
-
-RadioLib/CMakeFiles/RadioLib.dir/src/protocols/Morse/Morse.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RadioLib.dir/src/protocols/Morse/Morse.cpp.i"
-	cd /home/tccsat/RadioLib/examples/NonArduino/Raspberry/build/RadioLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tccsat/RadioLib/src/protocols/Morse/Morse.cpp > CMakeFiles/RadioLib.dir/src/protocols/Morse/Morse.cpp.i
-
-RadioLib/CMakeFiles/RadioLib.dir/src/protocols/Morse/Morse.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RadioLib.dir/src/protocols/Morse/Morse.cpp.s"
-	cd /home/tccsat/RadioLib/examples/NonArduino/Raspberry/build/RadioLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tccsat/RadioLib/src/protocols/Morse/Morse.cpp -o CMakeFiles/RadioLib.dir/src/protocols/Morse/Morse.cpp.s
-
-RadioLib/CMakeFiles/RadioLib.dir/src/protocols/Pager/Pager.cpp.o: RadioLib/CMakeFiles/RadioLib.dir/flags.make
-RadioLib/CMakeFiles/RadioLib.dir/src/protocols/Pager/Pager.cpp.o: /home/tccsat/RadioLib/src/protocols/Pager/Pager.cpp
-RadioLib/CMakeFiles/RadioLib.dir/src/protocols/Pager/Pager.cpp.o: RadioLib/CMakeFiles/RadioLib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tccsat/RadioLib/examples/NonArduino/Raspberry/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object RadioLib/CMakeFiles/RadioLib.dir/src/protocols/Pager/Pager.cpp.o"
-	cd /home/tccsat/RadioLib/examples/NonArduino/Raspberry/build/RadioLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT RadioLib/CMakeFiles/RadioLib.dir/src/protocols/Pager/Pager.cpp.o -MF CMakeFiles/RadioLib.dir/src/protocols/Pager/Pager.cpp.o.d -o CMakeFiles/RadioLib.dir/src/protocols/Pager/Pager.cpp.o -c /home/tccsat/RadioLib/src/protocols/Pager/Pager.cpp
-
-RadioLib/CMakeFiles/RadioLib.dir/src/protocols/Pager/Pager.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RadioLib.dir/src/protocols/Pager/Pager.cpp.i"
-	cd /home/tccsat/RadioLib/examples/NonArduino/Raspberry/build/RadioLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tccsat/RadioLib/src/protocols/Pager/Pager.cpp > CMakeFiles/RadioLib.dir/src/protocols/Pager/Pager.cpp.i
-
-RadioLib/CMakeFiles/RadioLib.dir/src/protocols/Pager/Pager.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RadioLib.dir/src/protocols/Pager/Pager.cpp.s"
-	cd /home/tccsat/RadioLib/examples/NonArduino/Raspberry/build/RadioLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tccsat/RadioLib/src/protocols/Pager/Pager.cpp -o CMakeFiles/RadioLib.dir/src/protocols/Pager/Pager.cpp.s
-
 RadioLib/CMakeFiles/RadioLib.dir/src/protocols/PhysicalLayer/PhysicalLayer.cpp.o: RadioLib/CMakeFiles/RadioLib.dir/flags.make
 RadioLib/CMakeFiles/RadioLib.dir/src/protocols/PhysicalLayer/PhysicalLayer.cpp.o: /home/tccsat/RadioLib/src/protocols/PhysicalLayer/PhysicalLayer.cpp
 RadioLib/CMakeFiles/RadioLib.dir/src/protocols/PhysicalLayer/PhysicalLayer.cpp.o: RadioLib/CMakeFiles/RadioLib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tccsat/RadioLib/examples/NonArduino/Raspberry/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object RadioLib/CMakeFiles/RadioLib.dir/src/protocols/PhysicalLayer/PhysicalLayer.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tccsat/RadioLib/examples/NonArduino/Raspberry/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object RadioLib/CMakeFiles/RadioLib.dir/src/protocols/PhysicalLayer/PhysicalLayer.cpp.o"
 	cd /home/tccsat/RadioLib/examples/NonArduino/Raspberry/build/RadioLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT RadioLib/CMakeFiles/RadioLib.dir/src/protocols/PhysicalLayer/PhysicalLayer.cpp.o -MF CMakeFiles/RadioLib.dir/src/protocols/PhysicalLayer/PhysicalLayer.cpp.o.d -o CMakeFiles/RadioLib.dir/src/protocols/PhysicalLayer/PhysicalLayer.cpp.o -c /home/tccsat/RadioLib/src/protocols/PhysicalLayer/PhysicalLayer.cpp
 
 RadioLib/CMakeFiles/RadioLib.dir/src/protocols/PhysicalLayer/PhysicalLayer.cpp.i: cmake_force
@@ -657,52 +265,10 @@ RadioLib/CMakeFiles/RadioLib.dir/src/protocols/PhysicalLayer/PhysicalLayer.cpp.s
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RadioLib.dir/src/protocols/PhysicalLayer/PhysicalLayer.cpp.s"
 	cd /home/tccsat/RadioLib/examples/NonArduino/Raspberry/build/RadioLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tccsat/RadioLib/src/protocols/PhysicalLayer/PhysicalLayer.cpp -o CMakeFiles/RadioLib.dir/src/protocols/PhysicalLayer/PhysicalLayer.cpp.s
 
-RadioLib/CMakeFiles/RadioLib.dir/src/protocols/Print/ITA2String.cpp.o: RadioLib/CMakeFiles/RadioLib.dir/flags.make
-RadioLib/CMakeFiles/RadioLib.dir/src/protocols/Print/ITA2String.cpp.o: /home/tccsat/RadioLib/src/protocols/Print/ITA2String.cpp
-RadioLib/CMakeFiles/RadioLib.dir/src/protocols/Print/ITA2String.cpp.o: RadioLib/CMakeFiles/RadioLib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tccsat/RadioLib/examples/NonArduino/Raspberry/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object RadioLib/CMakeFiles/RadioLib.dir/src/protocols/Print/ITA2String.cpp.o"
-	cd /home/tccsat/RadioLib/examples/NonArduino/Raspberry/build/RadioLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT RadioLib/CMakeFiles/RadioLib.dir/src/protocols/Print/ITA2String.cpp.o -MF CMakeFiles/RadioLib.dir/src/protocols/Print/ITA2String.cpp.o.d -o CMakeFiles/RadioLib.dir/src/protocols/Print/ITA2String.cpp.o -c /home/tccsat/RadioLib/src/protocols/Print/ITA2String.cpp
-
-RadioLib/CMakeFiles/RadioLib.dir/src/protocols/Print/ITA2String.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RadioLib.dir/src/protocols/Print/ITA2String.cpp.i"
-	cd /home/tccsat/RadioLib/examples/NonArduino/Raspberry/build/RadioLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tccsat/RadioLib/src/protocols/Print/ITA2String.cpp > CMakeFiles/RadioLib.dir/src/protocols/Print/ITA2String.cpp.i
-
-RadioLib/CMakeFiles/RadioLib.dir/src/protocols/Print/ITA2String.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RadioLib.dir/src/protocols/Print/ITA2String.cpp.s"
-	cd /home/tccsat/RadioLib/examples/NonArduino/Raspberry/build/RadioLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tccsat/RadioLib/src/protocols/Print/ITA2String.cpp -o CMakeFiles/RadioLib.dir/src/protocols/Print/ITA2String.cpp.s
-
-RadioLib/CMakeFiles/RadioLib.dir/src/protocols/Print/Print.cpp.o: RadioLib/CMakeFiles/RadioLib.dir/flags.make
-RadioLib/CMakeFiles/RadioLib.dir/src/protocols/Print/Print.cpp.o: /home/tccsat/RadioLib/src/protocols/Print/Print.cpp
-RadioLib/CMakeFiles/RadioLib.dir/src/protocols/Print/Print.cpp.o: RadioLib/CMakeFiles/RadioLib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tccsat/RadioLib/examples/NonArduino/Raspberry/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object RadioLib/CMakeFiles/RadioLib.dir/src/protocols/Print/Print.cpp.o"
-	cd /home/tccsat/RadioLib/examples/NonArduino/Raspberry/build/RadioLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT RadioLib/CMakeFiles/RadioLib.dir/src/protocols/Print/Print.cpp.o -MF CMakeFiles/RadioLib.dir/src/protocols/Print/Print.cpp.o.d -o CMakeFiles/RadioLib.dir/src/protocols/Print/Print.cpp.o -c /home/tccsat/RadioLib/src/protocols/Print/Print.cpp
-
-RadioLib/CMakeFiles/RadioLib.dir/src/protocols/Print/Print.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RadioLib.dir/src/protocols/Print/Print.cpp.i"
-	cd /home/tccsat/RadioLib/examples/NonArduino/Raspberry/build/RadioLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tccsat/RadioLib/src/protocols/Print/Print.cpp > CMakeFiles/RadioLib.dir/src/protocols/Print/Print.cpp.i
-
-RadioLib/CMakeFiles/RadioLib.dir/src/protocols/Print/Print.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RadioLib.dir/src/protocols/Print/Print.cpp.s"
-	cd /home/tccsat/RadioLib/examples/NonArduino/Raspberry/build/RadioLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tccsat/RadioLib/src/protocols/Print/Print.cpp -o CMakeFiles/RadioLib.dir/src/protocols/Print/Print.cpp.s
-
-RadioLib/CMakeFiles/RadioLib.dir/src/protocols/RTTY/RTTY.cpp.o: RadioLib/CMakeFiles/RadioLib.dir/flags.make
-RadioLib/CMakeFiles/RadioLib.dir/src/protocols/RTTY/RTTY.cpp.o: /home/tccsat/RadioLib/src/protocols/RTTY/RTTY.cpp
-RadioLib/CMakeFiles/RadioLib.dir/src/protocols/RTTY/RTTY.cpp.o: RadioLib/CMakeFiles/RadioLib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tccsat/RadioLib/examples/NonArduino/Raspberry/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object RadioLib/CMakeFiles/RadioLib.dir/src/protocols/RTTY/RTTY.cpp.o"
-	cd /home/tccsat/RadioLib/examples/NonArduino/Raspberry/build/RadioLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT RadioLib/CMakeFiles/RadioLib.dir/src/protocols/RTTY/RTTY.cpp.o -MF CMakeFiles/RadioLib.dir/src/protocols/RTTY/RTTY.cpp.o.d -o CMakeFiles/RadioLib.dir/src/protocols/RTTY/RTTY.cpp.o -c /home/tccsat/RadioLib/src/protocols/RTTY/RTTY.cpp
-
-RadioLib/CMakeFiles/RadioLib.dir/src/protocols/RTTY/RTTY.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RadioLib.dir/src/protocols/RTTY/RTTY.cpp.i"
-	cd /home/tccsat/RadioLib/examples/NonArduino/Raspberry/build/RadioLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tccsat/RadioLib/src/protocols/RTTY/RTTY.cpp > CMakeFiles/RadioLib.dir/src/protocols/RTTY/RTTY.cpp.i
-
-RadioLib/CMakeFiles/RadioLib.dir/src/protocols/RTTY/RTTY.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RadioLib.dir/src/protocols/RTTY/RTTY.cpp.s"
-	cd /home/tccsat/RadioLib/examples/NonArduino/Raspberry/build/RadioLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tccsat/RadioLib/src/protocols/RTTY/RTTY.cpp -o CMakeFiles/RadioLib.dir/src/protocols/RTTY/RTTY.cpp.s
-
 RadioLib/CMakeFiles/RadioLib.dir/src/protocols/SSTV/SSTV.cpp.o: RadioLib/CMakeFiles/RadioLib.dir/flags.make
 RadioLib/CMakeFiles/RadioLib.dir/src/protocols/SSTV/SSTV.cpp.o: /home/tccsat/RadioLib/src/protocols/SSTV/SSTV.cpp
 RadioLib/CMakeFiles/RadioLib.dir/src/protocols/SSTV/SSTV.cpp.o: RadioLib/CMakeFiles/RadioLib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tccsat/RadioLib/examples/NonArduino/Raspberry/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building CXX object RadioLib/CMakeFiles/RadioLib.dir/src/protocols/SSTV/SSTV.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tccsat/RadioLib/examples/NonArduino/Raspberry/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object RadioLib/CMakeFiles/RadioLib.dir/src/protocols/SSTV/SSTV.cpp.o"
 	cd /home/tccsat/RadioLib/examples/NonArduino/Raspberry/build/RadioLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT RadioLib/CMakeFiles/RadioLib.dir/src/protocols/SSTV/SSTV.cpp.o -MF CMakeFiles/RadioLib.dir/src/protocols/SSTV/SSTV.cpp.o.d -o CMakeFiles/RadioLib.dir/src/protocols/SSTV/SSTV.cpp.o -c /home/tccsat/RadioLib/src/protocols/SSTV/SSTV.cpp
 
 RadioLib/CMakeFiles/RadioLib.dir/src/protocols/SSTV/SSTV.cpp.i: cmake_force
@@ -716,7 +282,7 @@ RadioLib/CMakeFiles/RadioLib.dir/src/protocols/SSTV/SSTV.cpp.s: cmake_force
 RadioLib/CMakeFiles/RadioLib.dir/src/utils/CRC.cpp.o: RadioLib/CMakeFiles/RadioLib.dir/flags.make
 RadioLib/CMakeFiles/RadioLib.dir/src/utils/CRC.cpp.o: /home/tccsat/RadioLib/src/utils/CRC.cpp
 RadioLib/CMakeFiles/RadioLib.dir/src/utils/CRC.cpp.o: RadioLib/CMakeFiles/RadioLib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tccsat/RadioLib/examples/NonArduino/Raspberry/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building CXX object RadioLib/CMakeFiles/RadioLib.dir/src/utils/CRC.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tccsat/RadioLib/examples/NonArduino/Raspberry/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object RadioLib/CMakeFiles/RadioLib.dir/src/utils/CRC.cpp.o"
 	cd /home/tccsat/RadioLib/examples/NonArduino/Raspberry/build/RadioLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT RadioLib/CMakeFiles/RadioLib.dir/src/utils/CRC.cpp.o -MF CMakeFiles/RadioLib.dir/src/utils/CRC.cpp.o.d -o CMakeFiles/RadioLib.dir/src/utils/CRC.cpp.o -c /home/tccsat/RadioLib/src/utils/CRC.cpp
 
 RadioLib/CMakeFiles/RadioLib.dir/src/utils/CRC.cpp.i: cmake_force
@@ -730,7 +296,7 @@ RadioLib/CMakeFiles/RadioLib.dir/src/utils/CRC.cpp.s: cmake_force
 RadioLib/CMakeFiles/RadioLib.dir/src/utils/Cryptography.cpp.o: RadioLib/CMakeFiles/RadioLib.dir/flags.make
 RadioLib/CMakeFiles/RadioLib.dir/src/utils/Cryptography.cpp.o: /home/tccsat/RadioLib/src/utils/Cryptography.cpp
 RadioLib/CMakeFiles/RadioLib.dir/src/utils/Cryptography.cpp.o: RadioLib/CMakeFiles/RadioLib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tccsat/RadioLib/examples/NonArduino/Raspberry/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building CXX object RadioLib/CMakeFiles/RadioLib.dir/src/utils/Cryptography.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tccsat/RadioLib/examples/NonArduino/Raspberry/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object RadioLib/CMakeFiles/RadioLib.dir/src/utils/Cryptography.cpp.o"
 	cd /home/tccsat/RadioLib/examples/NonArduino/Raspberry/build/RadioLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT RadioLib/CMakeFiles/RadioLib.dir/src/utils/Cryptography.cpp.o -MF CMakeFiles/RadioLib.dir/src/utils/Cryptography.cpp.o.d -o CMakeFiles/RadioLib.dir/src/utils/Cryptography.cpp.o -c /home/tccsat/RadioLib/src/utils/Cryptography.cpp
 
 RadioLib/CMakeFiles/RadioLib.dir/src/utils/Cryptography.cpp.i: cmake_force
@@ -744,7 +310,7 @@ RadioLib/CMakeFiles/RadioLib.dir/src/utils/Cryptography.cpp.s: cmake_force
 RadioLib/CMakeFiles/RadioLib.dir/src/utils/FEC.cpp.o: RadioLib/CMakeFiles/RadioLib.dir/flags.make
 RadioLib/CMakeFiles/RadioLib.dir/src/utils/FEC.cpp.o: /home/tccsat/RadioLib/src/utils/FEC.cpp
 RadioLib/CMakeFiles/RadioLib.dir/src/utils/FEC.cpp.o: RadioLib/CMakeFiles/RadioLib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tccsat/RadioLib/examples/NonArduino/Raspberry/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building CXX object RadioLib/CMakeFiles/RadioLib.dir/src/utils/FEC.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tccsat/RadioLib/examples/NonArduino/Raspberry/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object RadioLib/CMakeFiles/RadioLib.dir/src/utils/FEC.cpp.o"
 	cd /home/tccsat/RadioLib/examples/NonArduino/Raspberry/build/RadioLib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT RadioLib/CMakeFiles/RadioLib.dir/src/utils/FEC.cpp.o -MF CMakeFiles/RadioLib.dir/src/utils/FEC.cpp.o.d -o CMakeFiles/RadioLib.dir/src/utils/FEC.cpp.o -c /home/tccsat/RadioLib/src/utils/FEC.cpp
 
 RadioLib/CMakeFiles/RadioLib.dir/src/utils/FEC.cpp.i: cmake_force
@@ -760,17 +326,6 @@ RadioLib_OBJECTS = \
 "CMakeFiles/RadioLib.dir/src/ArduinoHal.cpp.o" \
 "CMakeFiles/RadioLib.dir/src/Hal.cpp.o" \
 "CMakeFiles/RadioLib.dir/src/Module.cpp.o" \
-"CMakeFiles/RadioLib.dir/src/modules/CC1101/CC1101.cpp.o" \
-"CMakeFiles/RadioLib.dir/src/modules/LLCC68/LLCC68.cpp.o" \
-"CMakeFiles/RadioLib.dir/src/modules/RF69/RF69.cpp.o" \
-"CMakeFiles/RadioLib.dir/src/modules/SX123x/SX1231.cpp.o" \
-"CMakeFiles/RadioLib.dir/src/modules/SX123x/SX1233.cpp.o" \
-"CMakeFiles/RadioLib.dir/src/modules/SX126x/STM32WLx.cpp.o" \
-"CMakeFiles/RadioLib.dir/src/modules/SX126x/STM32WLx_Module.cpp.o" \
-"CMakeFiles/RadioLib.dir/src/modules/SX126x/SX1261.cpp.o" \
-"CMakeFiles/RadioLib.dir/src/modules/SX126x/SX1262.cpp.o" \
-"CMakeFiles/RadioLib.dir/src/modules/SX126x/SX1268.cpp.o" \
-"CMakeFiles/RadioLib.dir/src/modules/SX126x/SX126x.cpp.o" \
 "CMakeFiles/RadioLib.dir/src/modules/SX127x/SX1272.cpp.o" \
 "CMakeFiles/RadioLib.dir/src/modules/SX127x/SX1273.cpp.o" \
 "CMakeFiles/RadioLib.dir/src/modules/SX127x/SX1276.cpp.o" \
@@ -778,30 +333,10 @@ RadioLib_OBJECTS = \
 "CMakeFiles/RadioLib.dir/src/modules/SX127x/SX1278.cpp.o" \
 "CMakeFiles/RadioLib.dir/src/modules/SX127x/SX1279.cpp.o" \
 "CMakeFiles/RadioLib.dir/src/modules/SX127x/SX127x.cpp.o" \
-"CMakeFiles/RadioLib.dir/src/modules/SX128x/SX1280.cpp.o" \
-"CMakeFiles/RadioLib.dir/src/modules/SX128x/SX1281.cpp.o" \
-"CMakeFiles/RadioLib.dir/src/modules/SX128x/SX1282.cpp.o" \
-"CMakeFiles/RadioLib.dir/src/modules/SX128x/SX128x.cpp.o" \
-"CMakeFiles/RadioLib.dir/src/modules/Si443x/Si4430.cpp.o" \
-"CMakeFiles/RadioLib.dir/src/modules/Si443x/Si4431.cpp.o" \
-"CMakeFiles/RadioLib.dir/src/modules/Si443x/Si4432.cpp.o" \
-"CMakeFiles/RadioLib.dir/src/modules/Si443x/Si443x.cpp.o" \
-"CMakeFiles/RadioLib.dir/src/modules/nRF24/nRF24.cpp.o" \
 "CMakeFiles/RadioLib.dir/src/protocols/AFSK/AFSK.cpp.o" \
-"CMakeFiles/RadioLib.dir/src/protocols/APRS/APRS.cpp.o" \
-"CMakeFiles/RadioLib.dir/src/protocols/AX25/AX25.cpp.o" \
-"CMakeFiles/RadioLib.dir/src/protocols/BellModem/BellModem.cpp.o" \
-"CMakeFiles/RadioLib.dir/src/protocols/ExternalRadio/ExternalRadio.cpp.o" \
-"CMakeFiles/RadioLib.dir/src/protocols/FSK4/FSK4.cpp.o" \
-"CMakeFiles/RadioLib.dir/src/protocols/Hellschreiber/Hellschreiber.cpp.o" \
 "CMakeFiles/RadioLib.dir/src/protocols/LoRaWAN/LoRaWAN.cpp.o" \
 "CMakeFiles/RadioLib.dir/src/protocols/LoRaWAN/LoRaWANBands.cpp.o" \
-"CMakeFiles/RadioLib.dir/src/protocols/Morse/Morse.cpp.o" \
-"CMakeFiles/RadioLib.dir/src/protocols/Pager/Pager.cpp.o" \
 "CMakeFiles/RadioLib.dir/src/protocols/PhysicalLayer/PhysicalLayer.cpp.o" \
-"CMakeFiles/RadioLib.dir/src/protocols/Print/ITA2String.cpp.o" \
-"CMakeFiles/RadioLib.dir/src/protocols/Print/Print.cpp.o" \
-"CMakeFiles/RadioLib.dir/src/protocols/RTTY/RTTY.cpp.o" \
 "CMakeFiles/RadioLib.dir/src/protocols/SSTV/SSTV.cpp.o" \
 "CMakeFiles/RadioLib.dir/src/utils/CRC.cpp.o" \
 "CMakeFiles/RadioLib.dir/src/utils/Cryptography.cpp.o" \
@@ -813,17 +348,6 @@ RadioLib_EXTERNAL_OBJECTS =
 RadioLib/libRadioLib.a: RadioLib/CMakeFiles/RadioLib.dir/src/ArduinoHal.cpp.o
 RadioLib/libRadioLib.a: RadioLib/CMakeFiles/RadioLib.dir/src/Hal.cpp.o
 RadioLib/libRadioLib.a: RadioLib/CMakeFiles/RadioLib.dir/src/Module.cpp.o
-RadioLib/libRadioLib.a: RadioLib/CMakeFiles/RadioLib.dir/src/modules/CC1101/CC1101.cpp.o
-RadioLib/libRadioLib.a: RadioLib/CMakeFiles/RadioLib.dir/src/modules/LLCC68/LLCC68.cpp.o
-RadioLib/libRadioLib.a: RadioLib/CMakeFiles/RadioLib.dir/src/modules/RF69/RF69.cpp.o
-RadioLib/libRadioLib.a: RadioLib/CMakeFiles/RadioLib.dir/src/modules/SX123x/SX1231.cpp.o
-RadioLib/libRadioLib.a: RadioLib/CMakeFiles/RadioLib.dir/src/modules/SX123x/SX1233.cpp.o
-RadioLib/libRadioLib.a: RadioLib/CMakeFiles/RadioLib.dir/src/modules/SX126x/STM32WLx.cpp.o
-RadioLib/libRadioLib.a: RadioLib/CMakeFiles/RadioLib.dir/src/modules/SX126x/STM32WLx_Module.cpp.o
-RadioLib/libRadioLib.a: RadioLib/CMakeFiles/RadioLib.dir/src/modules/SX126x/SX1261.cpp.o
-RadioLib/libRadioLib.a: RadioLib/CMakeFiles/RadioLib.dir/src/modules/SX126x/SX1262.cpp.o
-RadioLib/libRadioLib.a: RadioLib/CMakeFiles/RadioLib.dir/src/modules/SX126x/SX1268.cpp.o
-RadioLib/libRadioLib.a: RadioLib/CMakeFiles/RadioLib.dir/src/modules/SX126x/SX126x.cpp.o
 RadioLib/libRadioLib.a: RadioLib/CMakeFiles/RadioLib.dir/src/modules/SX127x/SX1272.cpp.o
 RadioLib/libRadioLib.a: RadioLib/CMakeFiles/RadioLib.dir/src/modules/SX127x/SX1273.cpp.o
 RadioLib/libRadioLib.a: RadioLib/CMakeFiles/RadioLib.dir/src/modules/SX127x/SX1276.cpp.o
@@ -831,37 +355,17 @@ RadioLib/libRadioLib.a: RadioLib/CMakeFiles/RadioLib.dir/src/modules/SX127x/SX12
 RadioLib/libRadioLib.a: RadioLib/CMakeFiles/RadioLib.dir/src/modules/SX127x/SX1278.cpp.o
 RadioLib/libRadioLib.a: RadioLib/CMakeFiles/RadioLib.dir/src/modules/SX127x/SX1279.cpp.o
 RadioLib/libRadioLib.a: RadioLib/CMakeFiles/RadioLib.dir/src/modules/SX127x/SX127x.cpp.o
-RadioLib/libRadioLib.a: RadioLib/CMakeFiles/RadioLib.dir/src/modules/SX128x/SX1280.cpp.o
-RadioLib/libRadioLib.a: RadioLib/CMakeFiles/RadioLib.dir/src/modules/SX128x/SX1281.cpp.o
-RadioLib/libRadioLib.a: RadioLib/CMakeFiles/RadioLib.dir/src/modules/SX128x/SX1282.cpp.o
-RadioLib/libRadioLib.a: RadioLib/CMakeFiles/RadioLib.dir/src/modules/SX128x/SX128x.cpp.o
-RadioLib/libRadioLib.a: RadioLib/CMakeFiles/RadioLib.dir/src/modules/Si443x/Si4430.cpp.o
-RadioLib/libRadioLib.a: RadioLib/CMakeFiles/RadioLib.dir/src/modules/Si443x/Si4431.cpp.o
-RadioLib/libRadioLib.a: RadioLib/CMakeFiles/RadioLib.dir/src/modules/Si443x/Si4432.cpp.o
-RadioLib/libRadioLib.a: RadioLib/CMakeFiles/RadioLib.dir/src/modules/Si443x/Si443x.cpp.o
-RadioLib/libRadioLib.a: RadioLib/CMakeFiles/RadioLib.dir/src/modules/nRF24/nRF24.cpp.o
 RadioLib/libRadioLib.a: RadioLib/CMakeFiles/RadioLib.dir/src/protocols/AFSK/AFSK.cpp.o
-RadioLib/libRadioLib.a: RadioLib/CMakeFiles/RadioLib.dir/src/protocols/APRS/APRS.cpp.o
-RadioLib/libRadioLib.a: RadioLib/CMakeFiles/RadioLib.dir/src/protocols/AX25/AX25.cpp.o
-RadioLib/libRadioLib.a: RadioLib/CMakeFiles/RadioLib.dir/src/protocols/BellModem/BellModem.cpp.o
-RadioLib/libRadioLib.a: RadioLib/CMakeFiles/RadioLib.dir/src/protocols/ExternalRadio/ExternalRadio.cpp.o
-RadioLib/libRadioLib.a: RadioLib/CMakeFiles/RadioLib.dir/src/protocols/FSK4/FSK4.cpp.o
-RadioLib/libRadioLib.a: RadioLib/CMakeFiles/RadioLib.dir/src/protocols/Hellschreiber/Hellschreiber.cpp.o
 RadioLib/libRadioLib.a: RadioLib/CMakeFiles/RadioLib.dir/src/protocols/LoRaWAN/LoRaWAN.cpp.o
 RadioLib/libRadioLib.a: RadioLib/CMakeFiles/RadioLib.dir/src/protocols/LoRaWAN/LoRaWANBands.cpp.o
-RadioLib/libRadioLib.a: RadioLib/CMakeFiles/RadioLib.dir/src/protocols/Morse/Morse.cpp.o
-RadioLib/libRadioLib.a: RadioLib/CMakeFiles/RadioLib.dir/src/protocols/Pager/Pager.cpp.o
 RadioLib/libRadioLib.a: RadioLib/CMakeFiles/RadioLib.dir/src/protocols/PhysicalLayer/PhysicalLayer.cpp.o
-RadioLib/libRadioLib.a: RadioLib/CMakeFiles/RadioLib.dir/src/protocols/Print/ITA2String.cpp.o
-RadioLib/libRadioLib.a: RadioLib/CMakeFiles/RadioLib.dir/src/protocols/Print/Print.cpp.o
-RadioLib/libRadioLib.a: RadioLib/CMakeFiles/RadioLib.dir/src/protocols/RTTY/RTTY.cpp.o
 RadioLib/libRadioLib.a: RadioLib/CMakeFiles/RadioLib.dir/src/protocols/SSTV/SSTV.cpp.o
 RadioLib/libRadioLib.a: RadioLib/CMakeFiles/RadioLib.dir/src/utils/CRC.cpp.o
 RadioLib/libRadioLib.a: RadioLib/CMakeFiles/RadioLib.dir/src/utils/Cryptography.cpp.o
 RadioLib/libRadioLib.a: RadioLib/CMakeFiles/RadioLib.dir/src/utils/FEC.cpp.o
 RadioLib/libRadioLib.a: RadioLib/CMakeFiles/RadioLib.dir/build.make
 RadioLib/libRadioLib.a: RadioLib/CMakeFiles/RadioLib.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/tccsat/RadioLib/examples/NonArduino/Raspberry/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Linking CXX static library libRadioLib.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/tccsat/RadioLib/examples/NonArduino/Raspberry/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Linking CXX static library libRadioLib.a"
 	cd /home/tccsat/RadioLib/examples/NonArduino/Raspberry/build/RadioLib && $(CMAKE_COMMAND) -P CMakeFiles/RadioLib.dir/cmake_clean_target.cmake
 	cd /home/tccsat/RadioLib/examples/NonArduino/Raspberry/build/RadioLib && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/RadioLib.dir/link.txt --verbose=$(VERBOSE)
 
