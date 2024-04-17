@@ -223,54 +223,6 @@ src/Module.cpp.s:
 	cd /home/tccsat/RadioLib/examples/NonArduino/Raspberry/build && $(MAKE) $(MAKESILENT) -f RadioLib/CMakeFiles/RadioLib.dir/build.make RadioLib/CMakeFiles/RadioLib.dir/src/Module.cpp.s
 .PHONY : src/Module.cpp.s
 
-src/modules/SX127x/SX1272.o: src/modules/SX127x/SX1272.cpp.o
-.PHONY : src/modules/SX127x/SX1272.o
-
-# target to build an object file
-src/modules/SX127x/SX1272.cpp.o:
-	cd /home/tccsat/RadioLib/examples/NonArduino/Raspberry/build && $(MAKE) $(MAKESILENT) -f RadioLib/CMakeFiles/RadioLib.dir/build.make RadioLib/CMakeFiles/RadioLib.dir/src/modules/SX127x/SX1272.cpp.o
-.PHONY : src/modules/SX127x/SX1272.cpp.o
-
-src/modules/SX127x/SX1272.i: src/modules/SX127x/SX1272.cpp.i
-.PHONY : src/modules/SX127x/SX1272.i
-
-# target to preprocess a source file
-src/modules/SX127x/SX1272.cpp.i:
-	cd /home/tccsat/RadioLib/examples/NonArduino/Raspberry/build && $(MAKE) $(MAKESILENT) -f RadioLib/CMakeFiles/RadioLib.dir/build.make RadioLib/CMakeFiles/RadioLib.dir/src/modules/SX127x/SX1272.cpp.i
-.PHONY : src/modules/SX127x/SX1272.cpp.i
-
-src/modules/SX127x/SX1272.s: src/modules/SX127x/SX1272.cpp.s
-.PHONY : src/modules/SX127x/SX1272.s
-
-# target to generate assembly for a file
-src/modules/SX127x/SX1272.cpp.s:
-	cd /home/tccsat/RadioLib/examples/NonArduino/Raspberry/build && $(MAKE) $(MAKESILENT) -f RadioLib/CMakeFiles/RadioLib.dir/build.make RadioLib/CMakeFiles/RadioLib.dir/src/modules/SX127x/SX1272.cpp.s
-.PHONY : src/modules/SX127x/SX1272.cpp.s
-
-src/modules/SX127x/SX1273.o: src/modules/SX127x/SX1273.cpp.o
-.PHONY : src/modules/SX127x/SX1273.o
-
-# target to build an object file
-src/modules/SX127x/SX1273.cpp.o:
-	cd /home/tccsat/RadioLib/examples/NonArduino/Raspberry/build && $(MAKE) $(MAKESILENT) -f RadioLib/CMakeFiles/RadioLib.dir/build.make RadioLib/CMakeFiles/RadioLib.dir/src/modules/SX127x/SX1273.cpp.o
-.PHONY : src/modules/SX127x/SX1273.cpp.o
-
-src/modules/SX127x/SX1273.i: src/modules/SX127x/SX1273.cpp.i
-.PHONY : src/modules/SX127x/SX1273.i
-
-# target to preprocess a source file
-src/modules/SX127x/SX1273.cpp.i:
-	cd /home/tccsat/RadioLib/examples/NonArduino/Raspberry/build && $(MAKE) $(MAKESILENT) -f RadioLib/CMakeFiles/RadioLib.dir/build.make RadioLib/CMakeFiles/RadioLib.dir/src/modules/SX127x/SX1273.cpp.i
-.PHONY : src/modules/SX127x/SX1273.cpp.i
-
-src/modules/SX127x/SX1273.s: src/modules/SX127x/SX1273.cpp.s
-.PHONY : src/modules/SX127x/SX1273.s
-
-# target to generate assembly for a file
-src/modules/SX127x/SX1273.cpp.s:
-	cd /home/tccsat/RadioLib/examples/NonArduino/Raspberry/build && $(MAKE) $(MAKESILENT) -f RadioLib/CMakeFiles/RadioLib.dir/build.make RadioLib/CMakeFiles/RadioLib.dir/src/modules/SX127x/SX1273.cpp.s
-.PHONY : src/modules/SX127x/SX1273.cpp.s
-
 src/modules/SX127x/SX1276.o: src/modules/SX127x/SX1276.cpp.o
 .PHONY : src/modules/SX127x/SX1276.o
 
@@ -295,30 +247,6 @@ src/modules/SX127x/SX1276.cpp.s:
 	cd /home/tccsat/RadioLib/examples/NonArduino/Raspberry/build && $(MAKE) $(MAKESILENT) -f RadioLib/CMakeFiles/RadioLib.dir/build.make RadioLib/CMakeFiles/RadioLib.dir/src/modules/SX127x/SX1276.cpp.s
 .PHONY : src/modules/SX127x/SX1276.cpp.s
 
-src/modules/SX127x/SX1277.o: src/modules/SX127x/SX1277.cpp.o
-.PHONY : src/modules/SX127x/SX1277.o
-
-# target to build an object file
-src/modules/SX127x/SX1277.cpp.o:
-	cd /home/tccsat/RadioLib/examples/NonArduino/Raspberry/build && $(MAKE) $(MAKESILENT) -f RadioLib/CMakeFiles/RadioLib.dir/build.make RadioLib/CMakeFiles/RadioLib.dir/src/modules/SX127x/SX1277.cpp.o
-.PHONY : src/modules/SX127x/SX1277.cpp.o
-
-src/modules/SX127x/SX1277.i: src/modules/SX127x/SX1277.cpp.i
-.PHONY : src/modules/SX127x/SX1277.i
-
-# target to preprocess a source file
-src/modules/SX127x/SX1277.cpp.i:
-	cd /home/tccsat/RadioLib/examples/NonArduino/Raspberry/build && $(MAKE) $(MAKESILENT) -f RadioLib/CMakeFiles/RadioLib.dir/build.make RadioLib/CMakeFiles/RadioLib.dir/src/modules/SX127x/SX1277.cpp.i
-.PHONY : src/modules/SX127x/SX1277.cpp.i
-
-src/modules/SX127x/SX1277.s: src/modules/SX127x/SX1277.cpp.s
-.PHONY : src/modules/SX127x/SX1277.s
-
-# target to generate assembly for a file
-src/modules/SX127x/SX1277.cpp.s:
-	cd /home/tccsat/RadioLib/examples/NonArduino/Raspberry/build && $(MAKE) $(MAKESILENT) -f RadioLib/CMakeFiles/RadioLib.dir/build.make RadioLib/CMakeFiles/RadioLib.dir/src/modules/SX127x/SX1277.cpp.s
-.PHONY : src/modules/SX127x/SX1277.cpp.s
-
 src/modules/SX127x/SX1278.o: src/modules/SX127x/SX1278.cpp.o
 .PHONY : src/modules/SX127x/SX1278.o
 
@@ -342,30 +270,6 @@ src/modules/SX127x/SX1278.s: src/modules/SX127x/SX1278.cpp.s
 src/modules/SX127x/SX1278.cpp.s:
 	cd /home/tccsat/RadioLib/examples/NonArduino/Raspberry/build && $(MAKE) $(MAKESILENT) -f RadioLib/CMakeFiles/RadioLib.dir/build.make RadioLib/CMakeFiles/RadioLib.dir/src/modules/SX127x/SX1278.cpp.s
 .PHONY : src/modules/SX127x/SX1278.cpp.s
-
-src/modules/SX127x/SX1279.o: src/modules/SX127x/SX1279.cpp.o
-.PHONY : src/modules/SX127x/SX1279.o
-
-# target to build an object file
-src/modules/SX127x/SX1279.cpp.o:
-	cd /home/tccsat/RadioLib/examples/NonArduino/Raspberry/build && $(MAKE) $(MAKESILENT) -f RadioLib/CMakeFiles/RadioLib.dir/build.make RadioLib/CMakeFiles/RadioLib.dir/src/modules/SX127x/SX1279.cpp.o
-.PHONY : src/modules/SX127x/SX1279.cpp.o
-
-src/modules/SX127x/SX1279.i: src/modules/SX127x/SX1279.cpp.i
-.PHONY : src/modules/SX127x/SX1279.i
-
-# target to preprocess a source file
-src/modules/SX127x/SX1279.cpp.i:
-	cd /home/tccsat/RadioLib/examples/NonArduino/Raspberry/build && $(MAKE) $(MAKESILENT) -f RadioLib/CMakeFiles/RadioLib.dir/build.make RadioLib/CMakeFiles/RadioLib.dir/src/modules/SX127x/SX1279.cpp.i
-.PHONY : src/modules/SX127x/SX1279.cpp.i
-
-src/modules/SX127x/SX1279.s: src/modules/SX127x/SX1279.cpp.s
-.PHONY : src/modules/SX127x/SX1279.s
-
-# target to generate assembly for a file
-src/modules/SX127x/SX1279.cpp.s:
-	cd /home/tccsat/RadioLib/examples/NonArduino/Raspberry/build && $(MAKE) $(MAKESILENT) -f RadioLib/CMakeFiles/RadioLib.dir/build.make RadioLib/CMakeFiles/RadioLib.dir/src/modules/SX127x/SX1279.cpp.s
-.PHONY : src/modules/SX127x/SX1279.cpp.s
 
 src/modules/SX127x/SX127x.o: src/modules/SX127x/SX127x.cpp.o
 .PHONY : src/modules/SX127x/SX127x.o
@@ -602,24 +506,12 @@ help:
 	@echo "... src/Module.o"
 	@echo "... src/Module.i"
 	@echo "... src/Module.s"
-	@echo "... src/modules/SX127x/SX1272.o"
-	@echo "... src/modules/SX127x/SX1272.i"
-	@echo "... src/modules/SX127x/SX1272.s"
-	@echo "... src/modules/SX127x/SX1273.o"
-	@echo "... src/modules/SX127x/SX1273.i"
-	@echo "... src/modules/SX127x/SX1273.s"
 	@echo "... src/modules/SX127x/SX1276.o"
 	@echo "... src/modules/SX127x/SX1276.i"
 	@echo "... src/modules/SX127x/SX1276.s"
-	@echo "... src/modules/SX127x/SX1277.o"
-	@echo "... src/modules/SX127x/SX1277.i"
-	@echo "... src/modules/SX127x/SX1277.s"
 	@echo "... src/modules/SX127x/SX1278.o"
 	@echo "... src/modules/SX127x/SX1278.i"
 	@echo "... src/modules/SX127x/SX1278.s"
-	@echo "... src/modules/SX127x/SX1279.o"
-	@echo "... src/modules/SX127x/SX1279.i"
-	@echo "... src/modules/SX127x/SX1279.s"
 	@echo "... src/modules/SX127x/SX127x.o"
 	@echo "... src/modules/SX127x/SX127x.i"
 	@echo "... src/modules/SX127x/SX127x.s"

@@ -10,12 +10,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/tccsat/RadioLib/src/Hal.cpp" "RadioLib/CMakeFiles/RadioLib.dir/src/Hal.cpp.o" "gcc" "RadioLib/CMakeFiles/RadioLib.dir/src/Hal.cpp.o.d"
   "/home/tccsat/RadioLib/src/Module.cpp" "RadioLib/CMakeFiles/RadioLib.dir/src/Module.cpp.o" "gcc" "RadioLib/CMakeFiles/RadioLib.dir/src/Module.cpp.o.d"
-  "/home/tccsat/RadioLib/src/modules/SX127x/SX1272.cpp" "RadioLib/CMakeFiles/RadioLib.dir/src/modules/SX127x/SX1272.cpp.o" "gcc" "RadioLib/CMakeFiles/RadioLib.dir/src/modules/SX127x/SX1272.cpp.o.d"
-  "/home/tccsat/RadioLib/src/modules/SX127x/SX1273.cpp" "RadioLib/CMakeFiles/RadioLib.dir/src/modules/SX127x/SX1273.cpp.o" "gcc" "RadioLib/CMakeFiles/RadioLib.dir/src/modules/SX127x/SX1273.cpp.o.d"
   "/home/tccsat/RadioLib/src/modules/SX127x/SX1276.cpp" "RadioLib/CMakeFiles/RadioLib.dir/src/modules/SX127x/SX1276.cpp.o" "gcc" "RadioLib/CMakeFiles/RadioLib.dir/src/modules/SX127x/SX1276.cpp.o.d"
-  "/home/tccsat/RadioLib/src/modules/SX127x/SX1277.cpp" "RadioLib/CMakeFiles/RadioLib.dir/src/modules/SX127x/SX1277.cpp.o" "gcc" "RadioLib/CMakeFiles/RadioLib.dir/src/modules/SX127x/SX1277.cpp.o.d"
   "/home/tccsat/RadioLib/src/modules/SX127x/SX1278.cpp" "RadioLib/CMakeFiles/RadioLib.dir/src/modules/SX127x/SX1278.cpp.o" "gcc" "RadioLib/CMakeFiles/RadioLib.dir/src/modules/SX127x/SX1278.cpp.o.d"
-  "/home/tccsat/RadioLib/src/modules/SX127x/SX1279.cpp" "RadioLib/CMakeFiles/RadioLib.dir/src/modules/SX127x/SX1279.cpp.o" "gcc" "RadioLib/CMakeFiles/RadioLib.dir/src/modules/SX127x/SX1279.cpp.o.d"
   "/home/tccsat/RadioLib/src/modules/SX127x/SX127x.cpp" "RadioLib/CMakeFiles/RadioLib.dir/src/modules/SX127x/SX127x.cpp.o" "gcc" "RadioLib/CMakeFiles/RadioLib.dir/src/modules/SX127x/SX127x.cpp.o.d"
   "/home/tccsat/RadioLib/src/protocols/AFSK/AFSK.cpp" "RadioLib/CMakeFiles/RadioLib.dir/src/protocols/AFSK/AFSK.cpp.o" "gcc" "RadioLib/CMakeFiles/RadioLib.dir/src/protocols/AFSK/AFSK.cpp.o.d"
   "/home/tccsat/RadioLib/src/protocols/LoRaWAN/LoRaWAN.cpp" "RadioLib/CMakeFiles/RadioLib.dir/src/protocols/LoRaWAN/LoRaWAN.cpp.o" "gcc" "RadioLib/CMakeFiles/RadioLib.dir/src/protocols/LoRaWAN/LoRaWAN.cpp.o.d"
