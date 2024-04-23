@@ -187,29 +187,29 @@ RadioLib/fast:
 	$(MAKE) $(MAKESILENT) -f RadioLib/CMakeFiles/RadioLib.dir/build.make RadioLib/CMakeFiles/RadioLib.dir/build
 .PHONY : RadioLib/fast
 
-main.o: main.cpp.o
-.PHONY : main.o
+endnode.o: endnode.cpp.o
+.PHONY : endnode.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/rpi-sx1276.dir/build.make CMakeFiles/rpi-sx1276.dir/main.cpp.o
-.PHONY : main.cpp.o
+endnode.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rpi-sx1276.dir/build.make CMakeFiles/rpi-sx1276.dir/endnode.cpp.o
+.PHONY : endnode.cpp.o
 
-main.i: main.cpp.i
-.PHONY : main.i
+endnode.i: endnode.cpp.i
+.PHONY : endnode.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/rpi-sx1276.dir/build.make CMakeFiles/rpi-sx1276.dir/main.cpp.i
-.PHONY : main.cpp.i
+endnode.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rpi-sx1276.dir/build.make CMakeFiles/rpi-sx1276.dir/endnode.cpp.i
+.PHONY : endnode.cpp.i
 
-main.s: main.cpp.s
-.PHONY : main.s
+endnode.s: endnode.cpp.s
+.PHONY : endnode.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/rpi-sx1276.dir/build.make CMakeFiles/rpi-sx1276.dir/main.cpp.s
-.PHONY : main.cpp.s
+endnode.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rpi-sx1276.dir/build.make CMakeFiles/rpi-sx1276.dir/endnode.cpp.s
+.PHONY : endnode.cpp.s
 
 # Help Target
 help:
@@ -225,9 +225,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... RadioLib"
 	@echo "... rpi-sx1276"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... endnode.o"
+	@echo "... endnode.i"
+	@echo "... endnode.s"
 .PHONY : help
 
 
