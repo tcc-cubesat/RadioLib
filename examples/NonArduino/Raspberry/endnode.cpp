@@ -16,7 +16,7 @@ PiHal* hal = new PiHal(1);
 // DIO0 pin:  17 RASP(17)
 // DIO1 pin:  13 RASP(13)
 // RST pin:  12 RASP(4)
-SX1272 radio = new Module(hal, 8, 17, 4, 13);
+SX1276 radio = new Module(hal, 8, 17, 4, 13);
 
 LoRaWANNode node(&radio, &US915, 2);
 // the entry point for the program
