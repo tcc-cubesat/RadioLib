@@ -52,7 +52,7 @@ int main(int argc, char **argv)
     hal->delay(2000);
   }
   int count = 0;
-
+  // node.setDutyCycle(1200);
   while (true)
   {
     // send a packet
@@ -68,12 +68,18 @@ int main(int argc, char **argv)
       printf("Received a downlink!\n");
 
       // wait for a second before transmitting again
-      hal->delay(10000);
+      hal->delay(100);
     }
     else
     {
       printf("failed, code %d\n", state);
     }
+    // wait before sending another packet
+    // uint32_t minimumDelay = 60000;                  // try to send once every minute
+    // uint32_t interval = node.timeUntilUplink();     // calculate minimum duty cycle delay (per law!)
+    // uint32_t delayMs = std::max(interval, minimumDelay); // cannot send faster than duty cycle allows
+
+    // hal->delay(delayMs);
   }
 
   return (0);
