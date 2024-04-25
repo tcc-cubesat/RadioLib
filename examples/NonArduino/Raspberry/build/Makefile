@@ -187,29 +187,29 @@ RadioLib/fast:
 	$(MAKE) $(MAKESILENT) -f RadioLib/CMakeFiles/RadioLib.dir/build.make RadioLib/CMakeFiles/RadioLib.dir/build
 .PHONY : RadioLib/fast
 
-downlink.o: downlink.cpp.o
-.PHONY : downlink.o
+main.o: main.cpp.o
+.PHONY : main.o
 
 # target to build an object file
-downlink.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/rpi-sx1276.dir/build.make CMakeFiles/rpi-sx1276.dir/downlink.cpp.o
-.PHONY : downlink.cpp.o
+main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rpi-sx1276.dir/build.make CMakeFiles/rpi-sx1276.dir/main.cpp.o
+.PHONY : main.cpp.o
 
-downlink.i: downlink.cpp.i
-.PHONY : downlink.i
+main.i: main.cpp.i
+.PHONY : main.i
 
 # target to preprocess a source file
-downlink.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/rpi-sx1276.dir/build.make CMakeFiles/rpi-sx1276.dir/downlink.cpp.i
-.PHONY : downlink.cpp.i
+main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rpi-sx1276.dir/build.make CMakeFiles/rpi-sx1276.dir/main.cpp.i
+.PHONY : main.cpp.i
 
-downlink.s: downlink.cpp.s
-.PHONY : downlink.s
+main.s: main.cpp.s
+.PHONY : main.s
 
 # target to generate assembly for a file
-downlink.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/rpi-sx1276.dir/build.make CMakeFiles/rpi-sx1276.dir/downlink.cpp.s
-.PHONY : downlink.cpp.s
+main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rpi-sx1276.dir/build.make CMakeFiles/rpi-sx1276.dir/main.cpp.s
+.PHONY : main.cpp.s
 
 # Help Target
 help:
@@ -225,9 +225,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... RadioLib"
 	@echo "... rpi-sx1276"
-	@echo "... downlink.o"
-	@echo "... downlink.i"
-	@echo "... downlink.s"
+	@echo "... main.o"
+	@echo "... main.i"
+	@echo "... main.s"
 .PHONY : help
 
 
